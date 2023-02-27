@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    background-color: #ffdfee98;
+    margin: 0px;
+}
+
+header {
+    background-color: #7D5A5C;
+    text-align: center;
+    padding: 0px 20px 10px 0px;
+}
+
+nav {
+    text-align: right;
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+    border: 1px solid white;
+}
+
+main {
+    background-color: white;
+    margin: 1px 50px 1px 50px;
+
+}
+
+article>h2 {
+    text-align: center;
+}
+
+article>p {
+    text-align: center;
+
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
