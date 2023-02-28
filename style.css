@@ -32,6 +32,10 @@ main {
 
 }
 
+picture > img {
+    align-items: center;
+}
+
 article>h2 {
     text-align: center;
 }
@@ -44,4 +48,23 @@ article>p {
 #logo {
     display: flex;
     justify-content: center;
+}
+
+footer {
+    background-color: #7D5A5C
+}
+
+footer>p {
+    color: white;
+    padding-left: 23px;
+}
+
+footer>p, a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.developer {
+    text-align: center;
 }
