@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+   /* background-color: #ffdfee98;*/
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 0px 20px 10px 0px;
+}
+
+header h1{
+    text-align: center;
+    font-size: 1.6em;
+    background-color: #7D5A5C;
+    color: white;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation #logo{
+    width: 300px;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.navigation #user{
+    width: 70px;
+}
+
+.navigation #cart-shopping{
+    width: 70px;
+}
+
+.navigation #heart{
+    width: 70px;
+}
+
+.navigation ul li a{
+    color: black;
+    font-weight: 600px;
+    padding-bottom: 4px;
+    border: solid black 4px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+
+.container-pesquisa {
+    left: 40%;
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
+.icon-pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.icon-pesquisa::before {
+    content: '';
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    border: 2px solid #f2cb05;
+}
+
+.icon-pesquisa::after {
+    content: '';
+    width: 20%;
+    height: 2px;
+    background-color: #f2cb05;
+}
+
+.caixa-pesquisa {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    width: 250px;
+    box-shadow: 2px 2px 5px #777;
+   /* transition: all 0.7s;*/
+}
+
+.caixa-pesquisa:valid {
+    width: 450px;
+}
