@@ -18,6 +18,7 @@ body {
     animation: gradient 15s ease infinite;
     height: 100vh;
 }
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -44,6 +45,7 @@ header h1{
     background-color: #D2691E;
     color: white;
     font-family: 'Kaushan Script', cursive;
+    /*font-family:  Roundhand, cursive;*/
 }
 
 #menuBotao img{
@@ -157,6 +159,7 @@ section h1{
     width: 100%;
     padding: 70px 0;
     font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
 }
 
 .section-local p{
@@ -179,19 +182,41 @@ article h1, h2{
     width: 100%;
     padding: 70px 0;
     font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
 }
 
 .all-article{
-    background-image: url("../assets/background-cake.jpg");
+    /*background-image: url("../assets/background-cake.jpg");*/
+    background-color: white;
+}
+
+.section-local{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section-local h1{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.section-local p{
+    color: black;
+}
+
+.section-local img{
+    width: 300px;
 }
 
 footer{
-    background-color: rgb(255, 155, 125);
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding-top: 40px;
 }
 
-picture #mine{
-    width: 350;
-}
 footer .footer-info {
     display: flex;
     text-align: center;
@@ -199,35 +224,15 @@ footer .footer-info {
     
 }
 
-footer #institucional{
-    /*background-color: red;*/
-    color: black;
-}
-
-footer #duvidas{
-    color: black;
-    /*background-color: blue;*/
-}
-
-footer #cliente{
-    color: black;
-    /*background-color: green;*/
-}
-
-footer #ajuda{
-    color: black;
-    /*background-color: blueviolet;*/
-}
-
 footer>p {
-    color: white;
+    color: black;
     padding-left: 23px;
     text-decoration: none;
 }
 
 footer a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bolder;
 }
 
@@ -236,7 +241,7 @@ footer a{
     text-align: center;
     font-size: 1.0em;
     text-align: center;
-    background-color: #fcb2d498;
+    background-color: white;
     padding: 5px;
 }
 
@@ -245,3 +250,106 @@ footer a{
         padding-top: 2%;
     }
 }
+
+.cars{
+    height: 600px;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 500px 100px;
+    grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+    align-items: center;
+    justify-items: center;
+  
+}
+
+  #carousel {
+    grid-row: 1 / 2;
+    grid-column: 1 / 8;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    --items: 5;
+    --middle: 3;
+    --position: 1;
+    pointer-events: none;
+  }
+  
+  div.item {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: coral;
+    --r: calc(var(--position) - var(--offset));
+    --abs: max(calc(var(--r) * -1), var(--r));
+    transition: all 0.25s linear;
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-300px * var(--r)));
+    z-index: calc((var(--position) - var(--abs)));
+  }
+  
+  div.item:nth-of-type(1) {
+    --offset: 1;
+    background-color: #90f1ef;
+  }
+  div.item:nth-of-type(2) {
+    --offset: 2;
+    background-color: #ff70a6;
+  }
+  div.item:nth-of-type(3) {
+    --offset: 3;
+    background-color: #ff9770;
+  }
+  div.item:nth-of-type(4) {
+    --offset: 4;
+    background-color: #ffd670;
+  }
+  div.item:nth-of-type(5) {
+    --offset: 5;
+    background-color: #e9ff70;
+  }
+  
+  input:nth-of-type(1) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  input:nth-of-type(1):checked ~ #carousel {
+    --position: 1;
+  }
+  
+  input:nth-of-type(2) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(2):checked ~ #carousel {
+    --position: 2;
+  }
+  
+  input:nth-of-type(3) {
+    grid-column: 4 /5;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(3):checked ~ #carousel {
+    --position: 3;
+  }
+  
+  input:nth-of-type(4) {
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(4):checked ~ #carousel {
+    --position: 4;
+  }
+  
+  input:nth-of-type(5) {
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(5):checked ~ #carousel {
+    --position: 5;
+  }
