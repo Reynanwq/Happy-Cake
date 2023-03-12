@@ -23,6 +23,7 @@ header {
     background-color: whitesmoke;
     padding: 0px 0px 10px 0px;
     margin: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
 }
 
 header h1{
@@ -127,6 +128,7 @@ main {
     margin: auto;
     background-color: var(--cor01);
     padding: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.315);
 }
 
 section > h1 {
@@ -135,25 +137,31 @@ section > h1 {
 
 }
 
+section p {
+    padding-right: 150px;
+}
+
 .container{
     display: flex;
     align-items: center;
     padding-top: 10px;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .bolo {
-    width: 200px;
-    height: 200px;
-
+    padding-bottom: 30px;
 }
 
 .container p {
-    margin: auto;
-    width: 500px;
+    /* margin: auto; */
+    /* width: 500px; */
     text-align: justify;
 }
 
+.nome-bolo {
+    color: var(--cor03);
+    text-decoration: underline;
+}
 
 footer>p {
     color: white;
