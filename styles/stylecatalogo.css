@@ -163,6 +163,47 @@ section p {
     text-decoration: underline;
 }
 
+aside {
+    background-color: var(--cor01);
+    min-width: 500px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.315);
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+aside a {
+    color: black;
+}
+
+.more-information01 {
+    background-color: #f2cb05;
+    margin: -10px -10px 10px -10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.more-information01 h2 {
+    margin-bottom: 10px;
+}
+
+.more-information02 li {
+    padding-bottom: 7px;
+}
+
+aside ul li::after {
+    content: '\00A0\1F6F5';
+}
+
 footer>p {
     color: white;
     padding-left: 23px;
