@@ -19,7 +19,8 @@ body {
     padding: 0;
 }
 
-header {
+
+/* header {
     background-color: whitesmoke;
     padding: 0px 0px 10px 0px;
     margin: 0;
@@ -115,11 +116,50 @@ header h1{
     padding-left: 40px;
     width: 250px;
     box-shadow: 2px 2px 5px #777;
-   /* transition: all 0.7s;*/
-}
+   /* transition: all 0.7s;
+} 
+
 
 .caixa-pesquisa:valid {
     width: 450px;
+} 
+
+*/
+
+header {
+    background-color: var(--cor03);
+    text-align: center;
+    padding: 60px;
+    
+}
+
+header > h1 {
+    padding-bottom: 10px;
+}
+
+.img-logo {
+    position: absolute;
+    top: -3%;
+    left: 1%;
+}
+
+nav {
+    text-align: right;
+    background-color: black;
+    padding: 5px;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #7D5A5C;   
 }
 
 main {
@@ -189,7 +229,6 @@ aside a {
     margin: -10px -10px 10px -10px;
     padding: 10px;
     text-align: center;
-
 }
 
 .more-information01 h2 {
@@ -200,8 +239,39 @@ aside a {
     padding-bottom: 7px;
 }
 
-aside ul li::after {
-    content: '\00A0\1F6F5';
+.more-information02 ul {
+    columns: 2;
+}
+
+footer {
+    background-color: #7D5A5C;
+}
+
+footer .footer-info {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+footer #institucional{
+    /*background-color: red;*/
+    color: black;
+}
+
+footer #duvidas{
+    color: black;
+    /*background-color: blue;*/
+}
+
+footer #cliente{
+    color: black;
+    /*background-color: green;*/
+}
+
+footer #ajuda{
+    color: black;
+    /*background-color: blueviolet;*/
 }
 
 footer>p {
@@ -221,6 +291,6 @@ footer a{
     text-align: center;
     font-size: 1.0em;
     text-align: center;
-    background-color: var(--cor02);
+    background-color: #CAA9B3;
     padding: 5px;
 }
