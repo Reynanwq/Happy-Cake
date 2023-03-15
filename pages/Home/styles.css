@@ -1,0 +1,168 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 100vw;
+    height: 300px;
+    padding-bottom: 350px;
+
+    background-color: #fce2e8;
+
+
+    /*background-color: purple;*/
+
+}
+
+.logo-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    width: 300px;
+    height: 300px;
+
+    /*border: 1px solid red;*/
+
+}
+
+.logo-center img {
+    width: 300px;
+    height: 300px;
+}
+
+.search {
+    position: absolute;
+    top: 300px;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
+    background-color: #56aaaa;
+    height: 60px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.search:hover>.box-txt {
+    width: 240px;
+    padding: 0 6px;
+
+}
+
+.search:hover>.btn-search {
+    background-color: #333;
+    margin-left: 3px;
+
+}
+
+.btn-search {
+    color: #fdfd4c;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #56aaaa;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.box-txt {
+    border: none;
+    background-color: #56aaaa;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    cursor: pointer;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 42px;
+
+    border-top: 1px solid black;
+
+    background-color: #56aaaa;
+}
+
+.menu ul {
+
+    list-style: none;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    height: 42px;
+    min-width: 80px;
+    text-align: center;
+}
+
+.menu ul li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 12px 15px 0 15px;
+    height: 100%;
+}
+
+.menu ul li a:focus,
+.menu ul li a:hover {
+    background-color: #126969;
+    border-radius: 2px;
+
+}
+
+.social {
+    display: inline-block;
+    position: fixed;
+    right: -45px;
+    bottom: 360px;
+
+    width: 65px;
+    border-radius: 20px;
+
+    background-color: #56aaaa;
+    transition: 0.6s;
+}
+
+.social:hover {
+    right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.social ul li img {
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+main {
+
+    width: 100vw;
+    min-height: 60vh;
+}
+
+footer {
+    background-color: blue;
+    width: 100vw;
+    height: 300px;
+}
