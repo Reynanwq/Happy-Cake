@@ -35,19 +35,24 @@ body {
 
 header {
     background-color: white;
-    padding: 0px 20px 10px 0px;
+    padding: 0px 20px 10px 10px;
 }
 
 header h1{
     text-align: center;
     font-size: 11.2em;
     /*background-color: #7D5A5C;*/
-    background-color: #D2691E;
+    background-color: #ffffff;
     color: white;
     font-family: 'Kaushan Script', cursive;
     /*font-family:  Roundhand, cursive;*/
 }
 
+header img{
+    display: flex;
+    height: 150px;
+}
+/*
 #menuBotao img{
     width: 20px;
     margin-top: 15px;
@@ -103,7 +108,7 @@ nav ul li a{
     border-radius: 3px;
     z-index: 3;
     cursor: pointer;
-}
+}*/
 
 main{
     display: flex;
