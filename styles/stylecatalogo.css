@@ -1,9 +1,9 @@
 :root {
-    --cor01: #abdee6;
-    --cor02: #cbaacb;
-    --cor03: #ffffb5;
-    --cor04: #ffccb6;
-    --cor05: #f3b0c375;
+    --cor01: #fcb9aa;
+    --cor02: #ffdbcc;
+    --cor03: #eceae4;
+    --cor04: #a2e1db;
+    --cor05: #55cbcd;
 }
 
  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
@@ -24,28 +24,44 @@ font-family: 'Pacifico', cursive; */
     list-style: none;
 }
 
+@media (max-width: 1000px) {
+    .logo {
+        display: block;
+    }
+}
+
+@media (max-width: 800px) {
+    .logo {
+        display: none;
+    }
+}
+
 body {
     font-family: 'Courier New', Courier, monospace, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: var(--cor02);
 }
 
 header {
-    background-color: var(--cor05);
-    text-align: center;
-    padding: 60px;
+    background-color: var(--cor01);
+    height: 250px;
 }
 
-header > h1 {
-    margin-top: -10px;
-    padding-bottom: 30px;
+header h1 {
     font-family: 'Great Vibes', cursive;
-    font-size: 5em;
+    font-size: 3em;
 }
 
-header p {
-    font-family: 'Pacifico', cursive;
-    font-style: italic;
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    left: -1%;
 }
 
 nav {
@@ -70,47 +86,127 @@ nav a:hover {
 }
 
 main {
-    min-width: 500px;
+    background-color: var(--cor02);
+    min-width: 300px;
     max-width: 1200px;
     margin: auto;
-    padding: 10px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.315);
-}
-
-section > h1 {
-    padding: 30px 10px;
-    text-align: center;
-}
-
-section p {
-    padding-right: 150px;
-}
-
-.container{
-    display: flex;
-    align-items: center;
     padding-top: 10px;
-    /* margin: auto; */
 }
 
-.bolo {
-    padding-bottom: 30px;
+.info-catalogo {
+    text-align: center;
+    padding: 30px 10px;
+    font-weight: bolder;
+    font-family: 'Pacifico', cursive;
 }
 
-.container p {
-    /* margin: auto; */
-    /* width: 500px; */
-    text-align: justify;
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 10px;
+    padding-bottom: 10px;
 }
 
-.nome-bolo {
-    color: var(--cor01);
-    text-decoration: underline;
+
+div p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+main div:hover {
+    background-color: black;
+}
+
+.bloco-1, .bloco-2, .bloco-3, .bloco-4, .bloco-5, .bloco-6 {
+        
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.img-bolo {
+    width: 350px;
+    height: 254px;
+}
+
+.bloco-1 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto; 
+
+    color: white;
+    padding: 5px;
+    background-color: var(--cor05);
+    box-shadow: 0px 0px 5px black;
+}
+
+.bloco-2 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto; 
+
+    color:white;
+
+    background-color: var(--cor05);
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.bloco-3 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+
+    color: white;
+
+    background-color: var(--cor05);
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.bloco-4 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto; 
+
+    color: white;
+
+    background-color: var(--cor05);
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.bloco-5 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+
+    color: white;
+
+    background-color: var(--cor05);
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.bloco-6 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+
+    color: white;
+
+    background-color: var(--cor05);
+    padding: 5px;
+    box-shadow: 0px 0px 5px black;
 }
 
 aside {
     min-width: 500px;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -139,23 +235,27 @@ aside a {
     margin-bottom: 10px;
 }
 
+.more-information02 {
+    
+}
+
 .more-information02 li {
     padding-bottom: 7px;
 }
 
 .more-information02 ul {
     columns: 2;
+    text-align: center;
 }
 
 footer {
-    background-color: var(--cor04);
+    background-color: var(--cor01);
 }
 
 footer .footer-info {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    
 }
 
 footer #institucional{
@@ -191,7 +291,7 @@ footer a{
     text-align: center;
     font-size: 1.0em;
     text-align: center;
-    background-color: var(--cor01);
+    background-color: var(--cor04);
     padding: 5px;
     color: black;
 }
