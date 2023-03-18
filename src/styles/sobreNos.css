@@ -34,23 +34,52 @@ body {
 }
 
 header {
+    background: #010101;
     background-color: white;
-    padding: 0px 20px 10px 10px;
+    padding: 0px 20px 0px 10px;
 }
 
-header h1{
+/* header h1{
     text-align: center;
     font-size: 11.2em;
-    /*background-color: #7D5A5C;*/
+    ackground-color: #7D5A5C;
     background-color: #ffffff;
     color: white;
     font-family: 'Kaushan Script', cursive;
-    /*font-family:  Roundhand, cursive;*/
+    font-family:  Roundhand, cursive;
+} */
+
+header .logo{
+    width: 150px;
 }
 
-header img{
+.navegar{
     display: flex;
-    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegar ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.navegar ul li a{
+    color: #888;
+    font-weight: 600px;
+    padding-bottom: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+.navegar ul li a:hover{
+    color: #6343f1;
+    border-bottom: 1px solid #fff;
+}
+
+.navegar .check{
+    color: #fff;
+    border-bottom: 1px solid #fff;
 }
 /*
 #menuBotao img{
@@ -111,6 +140,7 @@ nav ul li a{
 }*/
 
 main{
+    background-color: #010101;
     display: flex;
     justify-content:space-around;
     padding: 20px 20px;
