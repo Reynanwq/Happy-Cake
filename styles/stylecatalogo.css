@@ -22,6 +22,7 @@ font-family: 'Pacifico', cursive; */
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 @media (max-width: 1000px) {
@@ -74,13 +75,13 @@ nav a {
     margin-left: 15px;
     text-decoration: none;
     border-radius: 5px;
-    padding: 5px;
+    padding: 7px 5px 5px 5px;
     transition: 0.5s;
     color: black;
 }
 
 nav a:hover {
-    background-color: var(--cor01);   
+    background-color: black;   
     color: white;
     font-weight: bolder;
 }
@@ -98,6 +99,11 @@ main {
     padding: 30px 10px;
     font-weight: bolder;
     font-family: 'Pacifico', cursive;
+    font-size: 2em;
+}
+
+.info-catalogo::after {
+    content: "\ ""\1F370";
 }
 
 .container {
@@ -235,8 +241,8 @@ aside a {
     margin-bottom: 10px;
 }
 
-.more-information02 {
-    
+.more-information01 li::after {
+    content: "\ ""\1F4F1";
 }
 
 .more-information02 li {
