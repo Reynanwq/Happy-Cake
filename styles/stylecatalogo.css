@@ -211,7 +211,6 @@ main div:hover {
 }
 
 aside {
-    min-width: 500px;
     max-width: 1100px;
     margin: auto;
     margin-top: 15px;
@@ -254,50 +253,68 @@ aside a {
     text-align: center;
 }
 
+.tachado {
+    text-decoration: line-through;
+}
+
 footer {
+    width: 100%;
+    min-height: 250px;
+    background-color: var(--cor04);
+
+    display: flex;
+}
+
+footer .boxs {
+    width: 395px;
+    min-height: 150px;
+    padding: 20px;
+}
+
+footer .boxs:nth-child(4) {
+    width: 400px;
+}
+
+.boxs h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.boxs ul li {
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.boxs p {
+    
+    text-align: justify;
+}
+
+.rodape {
+    text-align: center;
     background-color: var(--cor01);
 }
 
-footer .footer-info {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-}
-
-footer #institucional{
-    color: black;
-}
-
-footer #duvidas{
-    color: black;
-}
-
-footer #cliente{
-    color: black;
-}
-
-footer #ajuda{
-    color: black;
-}
-
-footer>p {
-    color: white;
-    padding-left: 23px;
+.developer{
+    margin: 0px;
     text-decoration: none;
 }
 
-footer a{
+.developer a {
     text-decoration: none;
     color: white;
     font-weight: bolder;
 }
 
-
-.developer {
-    text-align: center;
-    font-size: 1.0em;
-    text-align: center;
-    background-color: var(--cor04);
-    padding: 5px;
-    color: black;
+@media (max-width: 950px) {
+    footer {
+        flex-direction: column;
+    }
+    footer .boxs {
+        width: 100%;
+        text-align: center;
+    }
+    footer .boxs:nth-child(4) {
+        width: 100%;
+    }
 }
