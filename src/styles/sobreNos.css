@@ -167,14 +167,43 @@ main{
     background-color: #5e76ff;
 }
 
+.espace h1{
+  font-size: 40px;
+}
+
+.espace h3{
+  font-size: 30px;
+}
+
 .espace p{
-    
+  font-size: 25px;
+}
+
+.fabrica{
+  display: flex;
+  flex-direction: column;
+  margin-left: 190px;
+  margin-right: 190px;
+}
+
+.encomendas{
+  display: flex;
+  flex-direction: column;
+  margin-left: 190px;
+  margin-right: 190px;
+}
+
+.entregas{
+  display: flex;
+  flex-direction: column;
+  margin-left: 190px;
+  margin-right: 190px;
 }
 
 .espaceCake{
     display: flex;
     flex-direction: row;
-    padding: 400px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 
