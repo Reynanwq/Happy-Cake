@@ -164,7 +164,7 @@ main{
     display: flex; 
     flex-direction: column;
     align-items: center;
-    background-color: #5e76ff;
+    background-color: #ffffff;
 }
 
 .espace h1{
@@ -184,6 +184,12 @@ main{
   flex-direction: column;
   margin-left: 190px;
   margin-right: 190px;
+  color: #fff;
+  background-color: #ecb6ea;
+  padding: 35px 45px;
+  border-radius: 8px;
+  transition: all .45s ease;
+  margin-bottom: 20px ;
 }
 
 .encomendas{
@@ -191,6 +197,12 @@ main{
   flex-direction: column;
   margin-left: 190px;
   margin-right: 190px;
+  color: #fff;
+  background-color: #ecb6ea;
+  padding: 35px 45px;
+  border-radius: 8px;
+  transition: all .45s ease;
+  margin-bottom: 20px ;
 }
 
 .entregas{
@@ -198,6 +210,11 @@ main{
   flex-direction: column;
   margin-left: 190px;
   margin-right: 190px;
+  color: #fff;
+  background-color: #ecb6ea;
+  padding: 35px 45px;
+  border-radius: 8px;
+  transition: all .45s ease;
 }
 
 .espaceCake{
@@ -445,3 +462,5 @@ footer a{
   .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
   }
+
+  
