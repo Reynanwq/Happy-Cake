@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 :root {
     --cor01: #fcb9aa;
     --cor02: #ffdbcc;
@@ -264,7 +266,7 @@ footer .boxs:nth-child(4) {
         Abaixo dos 950px, o footer fica em colunas
 
         As configurações abaixo são apenas para organização do conteúdo
-        
+
         Obs.: É necessário fazer tudo dentro deste @media para que funcione. */
     }
     footer .boxs {
