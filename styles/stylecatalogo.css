@@ -6,6 +6,8 @@
     --cor05: #55cbcd;
 }
 
+/* Fonte do Header e para os demais textos do site (exceto o footer) */
+
  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
  /* font-family: 'Great Vibes', cursive;*/
@@ -15,7 +17,6 @@
 /* font-family: 'Great Vibes', cursive;
 font-family: 'Pacifico', cursive; */
 
-
 *{
     margin: 0;
     padding: 0;   
@@ -23,19 +24,27 @@ font-family: 'Pacifico', cursive; */
     text-decoration: none;
     list-style: none;
     font-family: 'Times New Roman', Times, serif;
+    /* Configuração Global */
 }
+
+
 
 @media (max-width: 1000px) {
     .logo {
         display: block;
     }
+    /* Deixando a logo estatica acima dos 1000px */
 }
 
 @media (max-width: 800px) {
     .logo {
         display: none;
     }
+    /* Fazendo com que a logo suma abaixo dos 800px */
 }
+
+
+
 
 body {
     font-family: 'Courier New', Courier, monospace, sans-serif;
@@ -103,7 +112,9 @@ main {
 }
 
 .info-catalogo::after {
-    content: "\ ""\1F370";
+    content: "\ ""\1F370"; 
+    /* Adicionando um icone no final
+    "\ " é para adicionar um espaço entre a última letra e o icon */
 }
 
 .container {
@@ -249,6 +260,12 @@ footer .boxs:nth-child(4) {
 @media (max-width: 950px) {
     footer {
         flex-direction: column;
+        /* 
+        Abaixo dos 950px, o footer fica em colunas
+
+        As configurações abaixo são apenas para organização do conteúdo
+        
+        Obs.: É necessário fazer tudo dentro deste @media para que funcione. */
     }
     footer .boxs {
         width: 100%;
