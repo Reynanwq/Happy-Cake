@@ -192,6 +192,12 @@ main{
   margin-bottom: 20px ;
 }
 
+.f-icons{
+  font-size: 35px;
+  color: #070707;
+  display: none;
+}
+
 .encomendas{
   display: flex;
   flex-direction: column;
@@ -462,5 +468,7 @@ footer a{
   .course-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
   }
+
+
 
   
