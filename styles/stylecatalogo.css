@@ -10,9 +10,17 @@
 
 /* Fonte do Header e para os demais textos do site (exceto o footer) */
 
- @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
  /* font-family: 'Great Vibes', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@1&display=swap');
+
+/* font-family: 'Ibarra Real Nova', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap');
+
+/* font-family: 'Public Sans', sans-serif; */
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap');
 
@@ -61,8 +69,9 @@ header {
 }
 
 header h1 {
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Ibarra Real Nova', serif;
     font-size: 3em;
+    font-style: italic;
 }
 
 .cabecalho {
@@ -108,9 +117,9 @@ main {
 .info-catalogo {
     text-align: center;
     padding: 30px 10px;
-    font-weight: bolder;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Public Sans', sans-serif;
     font-size: 2em;
+    letter-spacing: 2px;
 }
 
 .info-catalogo::after {
