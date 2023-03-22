@@ -147,7 +147,10 @@ div p {
 
 main div:hover {
     background-color: black;
+    transform:scale(1.1,1.1);
+    transition: 0.25s;
 }
+
 
 .bloco-img {
         
@@ -169,7 +172,7 @@ main div:hover {
     color: white;
     padding: 5px;
     background-color: var(--cor05);
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 3px black;
 }
 
 aside {
