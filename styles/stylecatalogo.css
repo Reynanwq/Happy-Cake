@@ -146,9 +146,15 @@ div p {
 }
 
 main div:hover {
-    background-color: black;
+    color: black;
+    background-color: white;
+
+
+
     transform:scale(1.1,1.1);
     transition: 0.25s;
+    
+
 }
 
 
@@ -269,6 +275,10 @@ footer .boxs:nth-child(4) {
     text-decoration: none;
     color: white;
     font-weight: bolder;
+}
+
+.developer a:hover {
+    text-decoration: underline var(--cor05);
 }
 
 @media (max-width: 950px) {
