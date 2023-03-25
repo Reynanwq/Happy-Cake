@@ -191,7 +191,6 @@ header {
 .menu ul li a:hover {
     background-color: #126969;
     border-radius: 2px;
-
 }
 
 main {
@@ -236,7 +235,7 @@ div p {
 main div:hover {
     color: black;
     background-color: white;
-
+    font-weight: bold;
 
     transform:scale(1.1,1.1);
     transition: 0.25s;
