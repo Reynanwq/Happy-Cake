@@ -8,18 +8,41 @@
     <title>Catálogo</title>
     <link rel="stylesheet" href="styles/stylecatalogo.css">
     <link rel="shortcut icon" href="assets/favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 
 <body>
-    <header class="cabecalho">
-        <h1>Happy Cake</h1>
-        <img src="assets/logopng250.png" alt="Logohappycake" class="logo">
+    <header>
+
+        <div class="logo-center">
+            <img src="../../assets/logo.png" alt="logo menu">
+
+            <div class="search">
+                <input class="box-txt" type="text" name="" placeholder="Pesquisar...">
+                <a class="btn-search" href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+
+        </div><!--Centro Header-->
+
+        <a href="#"> <img src="../../assets/user.png" alt="" class="user"></a>
+
     </header>
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Galeria</a>
-        <a href="#">Sobre Nós</a>
-    </nav>
+    <nav class="menu">
+        <ul>
+            <li>
+                <a href="#">Inicio</a>
+            </li>
+            <li>
+                <a href="#">Sobre nós</a>
+            </li>
+            <li>
+                <a href="#">Trabalhe conosco</a>
+            </li>
+        </ul>
+    </nav><!--BARRA DE NAVEGAÇÃO-->
 
     <main>
         <p class="info-catalogo">Confira o nosso Catálogo abaixo e peça já o seu</p>
@@ -66,19 +89,17 @@
     <aside>
 
         <div class="more-information01">
-            <h2>Monte e solicite o seu bolo pelo App:</h2>
+            <h2>Solicite o seu bolo pelo App:</h2>
             <ul>
                 <li><a href="#">Clique aqui</a></li>
             </ul>
         </div>
         <div class="more-information02">
             <ul>
-                <li><a href="#" target="_blank" rel="external" class="tachado">Acompanhe o seu pedido</a></li>
+                <li><a href="#" target="_blank" rel="external">Acompanhe o seu pedido</a></li>
                 <li><a href="https://www.instagram.com/cakehappyt/" target="_blank" rel="external">Instagram</a></li>
                 <li><a href="https://wa.me/qr/POYAZ3NJRQAUL1" target="_blank" rel="external">WhatsApp</a></li>
                 <li><a href="https://youtube.com/@happycakeofficial" target="_blank" rel="external">Youtube</a></li>
-                <li><a href="#" target="_blank" rel="external" class="tachado">Feedback</a></li>
-                <li><a href="#" target="_self" class="tachado">Os mais vendidos</a></li>
             </ul>
         </div>
 
@@ -87,28 +108,39 @@
     <footer>
 
         <div class="boxs">
-            <h2>Institucional</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum accusantium at facilis reprehenderit enim maiores eaque doloremque tenetur vero corrupti repudiandae quidem assumenda, eveniet cumque libero explicabo blanditiis aliquam rerum.</p>
+            <h2>Missão</h1>
+            <p>Oferecer as pessoas bolos de altíssima qualidade, transformando o dia a dia de cada cliente em momentos mágicos.</p>
         </div>
 
         <div class="boxs">
             <h2>Duvidas</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam molestias autem architecto dolorum velit sed consectetur placeat alpossimus expedita, vel provident et ipsum, nostrum, iste eveniet esse? Recusandae, iusto explicabo?</p>
+            <p>1 - Onde fica localizada a empresa?</p>
+            <ul>
+                <li>R. do Migrante, S/N - Centro, Camaçari - BA, 42800-210</li>
+            </ul>
+            <p>2 - Vocês que fazem o bolo?</p>
+            <ul>
+                <li>Sim.</li>
+            </ul>
+            <p>3 - Tenho direito a reembolso?</p>
+            <ul>
+                <li>Desde que o problema tenha partido da empresa, sim.</li>
+            </ul>
         </div>
 
         <div class="boxs">
             <h2>Empresas Parceiras</h1>
             <ul>
                 <li>MoonMilk</li>
-                <li>World of imagination</li>
+                <li>World of Imagination</li>
                 <li>Guarambina</li>
-                <li></li>
+                <li>Vila do cacau</li>
             </ul>
         </div>
 
         <div class="boxs">
             <h2>Ajuda</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde libero dolore placeat fuga vitae consequatur, debitis esse, sed velit aperiam repudiandae! Consequatur quas iusto vel dolor non dolores deleniti alias!</p>
+            <p>Se tiver dúvidas de como solicitar e acompanhar o seu pedido, ou não estiver conseguindo realizá-lo, acesse o nosso <a href="https://www.instagram.com/cakehappyt/" target="_blank" rel="external" class="box-ajudainsta">Instagram</a> ou <a href="https://wa.me/qr/POYAZ3NJRQAUL1" target="_blank" rel="external" class="box-ajudawpp">WhatsApp</a>.</p>
         </div>
 
     </footer>
