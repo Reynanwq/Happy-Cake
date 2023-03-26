@@ -33,12 +33,6 @@ body {
     }
 }
 
-header {
-    background: #010101;
-    background-color: white;
-    padding: 0px 20px 0px 10px;
-}
-
 /* header h1{
     text-align: center;
     font-size: 11.2em;
@@ -48,10 +42,6 @@ header {
     font-family: 'Kaushan Script', cursive;
     font-family:  Roundhand, cursive;
 } */
-
-header .logo{
-    width: 150px;
-}
 
 .navegar{
     display: flex;
@@ -212,7 +202,6 @@ article{
   transition: all .45s ease;
   margin-bottom: 20px;
   text-align:justify;
-
 }
 
 .entregas{
@@ -483,71 +472,23 @@ footer a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
     width: 100vw;
     height: 300px;
     padding-bottom: 350px;
-
     background-color: #fce2e8;
-
-
-    /*background-color: purple;*/
-
 }
 
 .logo-center {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
     width: 300px;
     height: 300px;
-
-    /*border: 1px solid red;*/
-
 }
 
 .logo-center img {
     width: 300px;
     height: 300px;
-}
-
-.search {
-    position: absolute;
-    top: 300px;
-    left: 50.5%;
-    transform: translate(-50%, -50%);
-    background-color: #56aaaa;
-    height: 60px;
-    border-radius: 15px;
-    padding: 10px;
-}
-
-.search:hover>.box-txt {
-    width: 240px;
-    padding: 0 6px;
-
-}
-
-.search:hover>.btn-search {
-    background-color: #333;
-    margin-left: 3px;
-
-}
-
-.btn-search {
-    color: #fdfd4c;
-    float: right;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #56aaaa;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    align-items: center;
-    transition: 0.4s;
 }
 
 .box-txt {
@@ -570,22 +511,16 @@ footer a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     width: 100vw;
     height: 45px;
-
     border-top: 1px solid black;
-
     background-color: #56aaaa;
 }
 
 .menu ul {
-
     list-style: none;
     display: flex;
     flex-wrap: no-wrap;
-
-
 }
 
 .menu ul li {
@@ -663,8 +598,6 @@ footer {
 .footer-section {
   display: flex;
   flex-direction: column;
-
-
   width: 300px;
   height: 80%;
   padding-top: 20px;
@@ -673,7 +606,7 @@ footer {
 
 .footer-section h3 {
   margin-bottom: 12px;
-
+  margin-left: -150px;
   font-family: 'Ibarra Real Nova Bold', sans-serif;
   letter-spacing: 1px;
   color: #000000;
@@ -718,12 +651,8 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
-
   width: 100vw;
   height: 60px;
-
-
   background-color: rgb(0, 0, 225, 0.2);
 }
 
@@ -739,12 +668,8 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
-
   width: 1180px;
   height: 100%;
-
-
 }
 
 .social-copy {
