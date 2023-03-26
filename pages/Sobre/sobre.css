@@ -379,7 +379,6 @@ footer a{
     font-weight: bolder;
 }
 
-
 .developer {
     text-align: center;
     font-size: 1.0em;
@@ -534,6 +533,7 @@ footer {
 }
 
 /*-------------------- RESPONSIVIDADE ----------------------------*/
+
 @media screen and (max-width: 1608px){
     /*TELAS MENORES QUE ALGUMA RESOLUÇÃO*/
     /*linha do titulo*/
@@ -666,7 +666,7 @@ footer {
       .espaceCake img{
         width: 350px;
         height: 250px;
-    }
+        }
 
     .mvv img{
         width: 300px;
@@ -701,8 +701,63 @@ footer {
 }
 
 @media screen and (max-width: 412px){
-    /**/
+    /*linha do titulo*/
+    .espace h1:before,
+    .espace h1:after {
+        width: 13%;
+        height: 3px;
+        top: 52.6%;
+    }
 
+    .espace h1{
+        font-size: 23px;
+    }
+
+      .espace h3{
+        font-size: 21px;
+    }
+
+      .espace p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+      .espaceCake{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mvv img{
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .mvv-text{
+        margin: -100px 30px -60px;
+    }
+      
+      .mvv-text h1{
+        font-size: 50px;
+    }
+      
+    .mvv-text p{
+        font-size: 15px;
+    }
+
+    .row{
+        margin-top: -10%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section-local p{
+        font-size: 17px;
+    }
+    
+    #map{
+        width: 300px;
+        height: 300px;
+    }
 }
 
 @media screen and (max-width: 360px){
