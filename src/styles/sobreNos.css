@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     background: white;
-    background-color:rgba(252, 154, 154, 0.952);
+    background-color:rgba(247, 247, 247, 0.952);
     /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #ff8411, #D2691E);*/
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
@@ -94,11 +94,21 @@ main{
     display: flex;
     flex-direction: column;
     padding: 0px 70px;
-    margin: 20px;
     width: 550px;
     text-decoration: none;
     color: #000000;
-    background-color: #fff;
+    text-align: center;
+}
+
+
+.mvv-text h1{
+  font-size: 90px;
+}
+
+.mvv-text p{
+  display: flex;
+  text-align:justify;
+  font-size: 25px;
 }
 
 .mvv img{
@@ -115,9 +125,9 @@ main{
   flex-direction: row;
   margin-top: 90px;
 }
-
+    
 article{
-  background-color: #126969;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
 }
@@ -126,13 +136,32 @@ article{
     display: flex; 
     flex-direction: column;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #fce2e8;
     margin: 100px;
 }
 
 .espace h1{
   font-size: 40px;
   margin: 60px;
+  font-family: serif;
+  text-transform: uppercase;
+}
+
+.espace h1:before,
+.espace h1:after {
+  content: "";
+  width: 35%;
+  height: 1px;
+  background: #555;
+  position: absolute;
+  top: 50%;
+}
+
+.espace h1:before {
+  left: 0;
+}
+.espace h1:after {
+  right: 0;
 }
 
 .espace h3{
@@ -142,6 +171,7 @@ article{
 .espace p{
   font-size: 25px;
 }
+
 
 .fabrica{
   display: flex;
@@ -192,6 +222,10 @@ article{
     flex-direction: row;
     padding: 10px 0px 0px 0px;
     margin: 100px;
+}
+
+.espaceCake img{
+  margin: 18px;
 }
 
 
