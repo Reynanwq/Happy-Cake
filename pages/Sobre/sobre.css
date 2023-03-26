@@ -179,7 +179,6 @@ main{
     width: 450px;
     height: 350px;
     margin: 50px;
-    
 }
 
 .img-article{
@@ -537,4 +536,43 @@ footer {
 .social-copy img {
   width: 30px;
   height: 30px;
+}
+
+/*-------------------- RESPONSIVIDADE ----------------------------*/
+@media screen and (max-width: 1608px){
+    /*TELAS MENORES QUE ALGUMA RESOLUÇÃO*/
+    .espace h1:before,
+    .espace h1:after {
+        content: "";
+        width: 35%;
+        height: 4px;
+        background: #555;
+        position: absolute;
+        top: 76%;
+    }
+
+}
+
+@media screen and (max-width: 1540px){
+
+}
+
+@media screen and (max-width: 1329px){
+    
+}
+
+@media screen and (max-width: 983px){
+    
+}
+
+@media screen and (max-width: 810px){
+    
+}
+
+@media screen and (max-width: 412px){
+    
+}
+
+@media screen and (max-width: 360px){
+    
 }
