@@ -689,8 +689,15 @@ footer {
 }
 
 @media screen and (max-width: 810px){
-    /**/
-
+    /*img das fabricas*/
+    .img-article{
+        flex-direction: column;
+    }
+    .mvv img{
+        width: 350px;
+        height: 250px;
+        margin: 10px;
+    }
 }
 
 @media screen and (max-width: 412px){
