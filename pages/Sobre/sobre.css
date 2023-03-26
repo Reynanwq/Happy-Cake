@@ -544,7 +544,7 @@ footer {
         height: 4px;
         background: #555;
         position: absolute;
-        top: 76%;
+        top: 70.9%;
     }
 
 }
@@ -559,7 +559,7 @@ footer {
         height: 4px;
         background: #555;
         position: absolute;
-        top: 54%;
+        top: 70.9%;
     }
 
     .mvv img{
@@ -579,7 +579,7 @@ footer {
         height: 4px;
         background: #555;
         position: absolute;
-        top: 53.5%;
+        top: 70.9%;
     }
 
     .mvv img{
@@ -648,7 +648,7 @@ footer {
         height: 4px;
         background: #555;
         position: absolute;
-        top: 53.1%;
+        top: 70.9%;
     }
 
     .espace h1{
@@ -700,13 +700,13 @@ footer {
     }
 }
 
-@media screen and (max-width: 412px){
+@media screen and (max-width: 460px){
     /*linha do titulo*/
     .espace h1:before,
     .espace h1:after {
         width: 13%;
         height: 3px;
-        top: 52.6%;
+        top: 69.5%;
     }
 
     .espace h1{
@@ -760,8 +760,17 @@ footer {
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 390px){
     /**/
+
+     /*linha do titulo*/
+     .espace h1:before,
+     .espace h1:after {
+         width: 13%;
+         height: 3px;
+         top: 69.8%;
+     }
+
     .section-local h1{
         font-size: 40px;
     }
