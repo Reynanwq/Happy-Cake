@@ -762,5 +762,16 @@ footer {
 
 @media screen and (max-width: 360px){
     /**/
+    .section-local h1{
+        font-size: 40px;
+    }
 
+    .section-local p{
+        font-size: 14px;;
+    }
+
+    .mvv-text{
+        margin: -100px 40px -70px;
+    }
+      
 }
