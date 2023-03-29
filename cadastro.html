@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style-cadastro.css">
+    <link rel="stylesheet" href="../../styles/global.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <section class="top">
+        <nav class="navbar">
+            <ul>
+                <li><a class="navbar-item" href="../Home/index.html">MENU</a></li>
+                <li><a class="navbar-item" href="../Catalogo/index.html">CATÁLOGO</a></li>
+                <li><a class="navbar-item" href="#">CONTATO</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <main>
+        <section class="login">
+            <h2>Cadastro</h2>
+
+            <div class="login-social">
+                <a href=""><img src="../../assets/facebook.png" alt=""></a>
+                <a href=""><img src="../../assets/app-store.png" alt=""></a>
+                <a href=""><img src="../../assets/gmail.png" alt=""></a>
+            </div>
+
+            <span class="span">ou preencha abaixo</span>
+            <div class="login-label">
+
+                <label for="email"></label>
+                <input type="email" id="email" name="email" required placeholder="Digite o seu e-mail">
+                <label for="senha"></label>
+                <input type="password" id="senha" name="senha" required placeholder="Digite a sua senha">
+
+                <form>
+                    <label for="nome"></label>
+                    <input type="text" id="nome" name="nome" required placeholder="Nome Completo"><br>
+
+                    <label for="sobrenome"></label>
+                    <input type="text" id="sobrenome" name="sobrenome" required placeholder="Nome e Sobrenome"><br>
+
+                    <label for="nome-social"></label>
+                    <input type="text" id="nome-social" name="nome-social" required placeholder="Nome Social"><br>
+
+                    <label for="cpf"></label>
+                    <input type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required placeholder="CPF"><br>
+
+                    <label for="cep"></label>
+                    <input type="text" id="cep" name="cep" pattern="\d{5}-\d{3}" required placeholder="CEP"><br>
+
+                    <label for="rua"></label>
+                    <input type="text" id="rua" name="rua" required placeholder="Rua"><br>
+
+                    <label for="bairro"></label>
+                    <input type="text" id="bairro" name="bairro" required placeholder="Bairro"><br>
+
+                    <label for="estado"></label>
+                    <select id="estado" name="Estado" required>
+                        <option value="">Estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select><br><br>
+
+                    <label for="cidade"></label>
+                    <input type="text" id="cidade" name="cidade" required placeholder="Cidade"><br><br>
+
+                    <input type="submit" value="Cadastrar">
+                </form>
+            </div>
+
+            <button class="login-button">Login</button>
+
+            <span class="link-cadastro">Não possui login? <a href="#">Cadastre-se</a></span>
+            <a href="" class="forgot-password">Esqueci minha senha</a>
+        </section>
+    </main>
+
+</body>
+
+</html>
