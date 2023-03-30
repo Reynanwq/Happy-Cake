@@ -1,0 +1,82 @@
+main {
+    width: 100%;
+    height: 720px;
+
+}
+
+body {
+    background-color: #ffecfd;
+
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 25px;
+    gap: 10px;
+
+    color: #3e8585;
+
+}
+
+.content1 h3:hover {
+    cursor: pointer;
+
+    font-size: 24px;
+    color: #ffffa8;
+}
+
+.content-lista {
+    width: 700px;
+    height: 300px;
+    margin-top: 40px;
+    border-radius: 15px;
+
+    font-family: 'Public Sans', sans-serif;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+    background-color: #56aaaa;
+}
+
+.content-payment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 600px;
+    height: 200px;
+    margin-top: 40px;
+    border-radius: 15px;
+
+    font-family: 'Public Sans', sans-serif;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+    background-color: #56aaaa;
+
+}
+
+.content-payment h1 {
+    margin-top: 15px;
+}
+
+.content-payment ul {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.content-payment ul li:hover {
+    font-size: 18px;
+    color: #ffffa8;
+}
+
+.content-payment span {
+    margin-top: 30px;
+}
