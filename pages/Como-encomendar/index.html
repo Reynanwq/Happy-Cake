@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="slides.js" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
     <link rel="stylesheet" href="../../styles/global.css">
     <link rel="stylesheet" href="../../styles/header.css">
     <link rel="stylesheet" href="../../styles/footer.css">
@@ -19,17 +17,12 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="swiper-bundle.min.css" />
-
     <title>Happy Cake</title>
 
 </head>
 
-
-
 <body>
-    <script src=".../script/main.js"</sript>
+
     <header>
 
         <div class="logo-center">
@@ -64,16 +57,16 @@
     <nav class="menu">
         <ul>
             <li>
-                <a href="../Home/index.html" class="active">Home</a>
+                <a href="../Home/index.html">Home</a>
             </li>
             <li>
                 <a href="../Catalogo/index.html">Catálogo</a>
             </li>
             <li>
-                <a href="#">Sobre Nós</a>
+                <a href="../Trabalhe-conosco/index.html">Trabalhe conosco</a>
             </li>
             <li>
-                <a href="../Como-encomendar/index.html">Como encomendar</a>
+                <a href="../Como-encomendar/index.html" class="active">Como encomendar</a>
             </li>
             <li>
                 <a href="../Acompanhar-pedido/index.html">Acompanhar pedido</a>
@@ -85,61 +78,31 @@
     </nav><!--BARRA DE NAVEGAÇÃO-->
 
     <main>
-        <!--<section class="wrapper">
-            <i class="fa-solid fa-arrow-left button" id="prev"></i>
-            <div class="image-container">
-                <div class="carousel">
-                    <img src="../../assets/bolo01.jpg" alt="" />
-                    <img src="../../assets/bolo02.jpg" alt="" />
-                    <img src="../../assets/bolo03.jpg" alt="" />
-                    <img src="../../assets/bolo05.jpg" alt="" />
-
-                </div>
-                <i class="fa-solid fa-arrow-right button" id="next"></i>
-            </div>
-        </section>-->
-
-        <section class="main swiper mySwiper">
-            <div class="wrapper swiper-wrapper">
-                <div class="slide swiper-slide">
-                    <img src="../../assets/bolo01.jpg" alt="" class="image" />
-                </div>
-                <div class="slide swiper-slide">
-                    <img src="../../assets/bolo02.jpg" alt="" class="image" />
-
-                </div>
-                <div class="slide swiper-slide">
-                    <img src="../../assets/bolo03.jpg" alt="" class="image" />
-
-                </div>
-            </div>
-
-            <div class="swiper-button-next nav-btn"></div>
-            <div class="swiper-button-prev nav-btn"></div>
-            <div class="swiper-pagination"></div>
-        </section>
-
-        <script src="swiper-bundle.min.js"></script>
-
-        <script>
-            var swiper = new Swiper(".mySwiper", {
-                slidesPerView: 1,
-                loop: true,
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-            });
-        </script>
-
-        <div class="slogan">
-            <h1>Gerando sorrisos a cada mordida!</h1>
+        <div class="content1">
+            <h1>Você pode fazer a sua encomenda pelo nosso app, ou pela Central de Atendimento:</h1>
+            <h3>(71) 99325-6666 | (71) 4000-3434</h3>
         </div>
 
+        <div class="content-lista">
+            <h2>Como fazer o pedido pelo app?</h2>
+            <ul>
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+            </ul>
+        </div>
+
+        <div class="content-payment">
+            <h1>Formas de pagamento</h1>
+            <ul>
+                <li>Cartão de crédito</li>
+                <li>Cartão de débito</li>
+                <li>Pix</li>
+                <li>Dinheiro (no ato da entrega/retirada)</li>
+            </ul>
+
+            <span>Não aceitamos vale refeição ou alimentação!</span>
+        </div>
     </main>
 
     <footer>

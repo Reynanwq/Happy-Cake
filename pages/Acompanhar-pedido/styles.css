@@ -1,0 +1,64 @@
+body {
+    background-color: #ffdbcc;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+
+.pedido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    border-radius: 20px;
+
+    background-color: rgb(255, 255, 255, 0.6);
+}
+
+.pedido h3 {
+    margin-top: 40px;
+}
+
+input[type="search"] {
+    width: 230px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+input[type="search"]:focus {
+    border-color: #56aaaa;
+    outline: none;
+}
+
+.pedido-button {
+    width: 140px;
+    height: 40px;
+    margin-top: 40px;
+
+    background-color: #56aaaa;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.pedido-button:hover {
+    background-color: #126969;
+}
+
+footer {
+    margin-top: 50px;
+}

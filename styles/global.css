@@ -5,3 +5,16 @@
     list-style: none;
     text-decoration: none;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
