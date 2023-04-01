@@ -7,7 +7,6 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   background-color: rgba(247, 247, 247, 0.952);
@@ -37,7 +36,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #76d3f0;
+  background-color: #e4fff4;
 }
 
 .mvv {
@@ -63,6 +62,8 @@ main {
   display: flex;
   text-align: justify;
   font-size: 25px;
+  font-family: 'Public Sans', sans-serif;
+  letter-spacing: 1px;
 }
 
 .mvv img {
@@ -89,19 +90,21 @@ article {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fce2e8;
+  /*background-color: #fce2e8;*/
+  background-color: white;
   margin: 100px;
 }
 
 .espace h1 {
   font-size: 40px;
   margin: 60px;
-  font-family: serif;
+  font-family: 'Ibarra Real Nova', sans-serif;
   text-transform: uppercase;
 }
 
 .espace h3 {
   text-transform: uppercase;
+  font-family: 'Ibarra Real Nova', sans-serif;
 }
 
 .espace h1:before,
@@ -128,48 +131,26 @@ article {
 
 .espace p {
   font-size: 25px;
+  font-family: 'Public Sans', sans-serif;
+  letter-spacing: 1px;
 }
 
-.fabrica {
-  display: flex;
-  flex-direction: column;
-  margin-left: 190px;
-  margin-right: 190px;
-  color: #fff;
-  background-color: #bb5728;
-  padding: 35px 45px;
-  border-radius: 8px;
-  transition: all .45s ease;
-  margin-bottom: 20px;
-  text-align: justify;
-}
-
-.encomendas {
-  display: flex;
-  flex-direction: column;
-  margin-left: 190px;
-  margin-right: 190px;
-  color: #fff;
-  background-color: #bb5728;
-  padding: 35px 45px;
-  border-radius: 8px;
-  transition: all .45s ease;
-  margin-bottom: 20px;
-  text-align: justify;
-}
-
+.fabrica,
+.encomendas,
 .entregas {
   display: flex;
   flex-direction: column;
   margin-left: 190px;
   margin-right: 190px;
   color: #fff;
-  background-color: #bb5728;
+  background-color: #56aaaa;
   padding: 35px 45px;
   border-radius: 8px;
   transition: all .45s ease;
+  margin-bottom: 20px;
   text-align: justify;
 }
+
 
 .espaceCake {
   display: flex;
@@ -212,7 +193,7 @@ article {
   display: inline;
   text-align: center;
   color: #000000;
-  ;
+
 }
 
 article h1,
@@ -304,17 +285,26 @@ footer a {
 
 .course-col {
   flex-basis: 31%;
-  background: #fff3f3;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
   box-sizing: border-box;
+  background: #56aaaa;
+  color: white;
 }
 
 h3 {
   text-align: center;
-  font-weight: 600;
+  font-family: 'Ibarra Real Nova', sans-serif;
+  font-weight: 700;
   margin: 10px 0;
+}
+
+.course-col p,
+.course ul {
+  font-family: 'Public Sans', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .course-col:hover {
