@@ -166,29 +166,180 @@ footer {
 }
 
 @media screen and (max-width: 1608px) {
-
+    /*ok*/
 }
 
 @media screen and (max-width: 1540px) {
-
+    /*ok*/
 }
 
 @media screen and (max-width: 1329px) {
-
+    /*ok*/
 }
 
 @media screen and (max-width: 983px) {
-
+    /*ok*/
 }
 
 @media screen and (max-width: 810px) {
-
-}
-
-@media screen and (max-width: 460px) {
-
-}
-
-@media screen and (max-width: 390px) {
     
+    .logo-center {
+        width: 50%;
+        height: 200px;
+    }
+
+    .logo-center strong {
+        font-size: 100px;
+    }
+
+    .logo-center img {
+        width: 250px;
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .logo-center strong {
+        font-size: 50px;
+    }
+
+    .logo-center img {
+        width: 230px;
+        height: 220px;
+    }
+
+    .user-box{
+        right: 20px;
+        top: 10px;
+        width: 157px;
+        height: 30px;
+    }
+
+    .user-box ul li {
+        height: 38px;
+        text-align: center;
+    }
+
+    .user-box ul li a {
+        letter-spacing: 1px;
+        font-size: 9px;
+        padding: 15px 15px 0 15px;
+        height: 100%;
+    }
+
+
+.menu {
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 150px;
+
+}
+
+.menu ul {
+    flex-wrap: wrap;
+}
+
+.menu ul li {
+    height: 42px;
+    text-align: center;
+}
+
+.menu ul li a {
+    letter-spacing: 1px;
+    padding: 15px 3px 0 15px;
+    height: 100%;
+}
+
+
+.search {
+    top: 255px;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
+    background-color: #56aaaa;
+    height: 60px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.search:hover>.box-txt {
+    width: 120px;
+    padding: 0 6px;
+
+}
+
+.search:hover>.btn-search {
+    background-color: #333;
+    margin-left: 3px;
+
+}
+
+.btn-search {
+    color: #FFFFFF;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #56aaaa;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.box-txt {
+    border: none;
+    background-color: #56aaaa;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    cursor: pointer;
+}
+
+
+.menu {
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 150px;
+
+}
+
+.menu ul {
+    flex-wrap: wrap;
+}
+
+.menu ul li {
+    height: 42px;
+    text-align: center;
+}
+
+.menu ul li a {
+    letter-spacing: 1px;
+    padding: 15px 3px 0 15px;
+    height: 100%;
+}
+
+}
+
+@media screen and (max-width: 465px) {
+    .logo-center img {
+        width: 130px;
+        height: 120px;
+    }
+
+.search {
+    top: 225px;
+}
+
 }
