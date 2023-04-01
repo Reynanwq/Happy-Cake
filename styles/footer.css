@@ -115,3 +115,32 @@ footer {
     width: 30px;
     height: 30px;
 }
+
+
+@media screen and (max-width: 973px) {
+    footer {
+           flex-wrap: wrap;
+           gap: 0px;
+    }
+
+
+.footer-section {
+    width: 230px;
+    height: 80%;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+    
+}
+
+@media screen and (max-width: 810px) {
+
+}
+
+@media screen and (max-width: 460px) {
+
+}
+
+@media screen and (max-width: 390px) {
+    
+}
