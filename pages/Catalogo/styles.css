@@ -307,7 +307,7 @@ footer .boxs:nth-child(4) {
 
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 600px) {
 
     .logo-center strong {
         font-size: 50px;
