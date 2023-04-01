@@ -80,3 +80,31 @@ header {
 .content-payment span {
     margin-top: 30px;
 }
+
+@media screen and (max-width: 1608px) {
+
+}
+
+@media screen and (max-width: 1540px) {
+
+}
+
+@media screen and (max-width: 1329px) {
+
+}
+
+@media screen and (max-width: 983px) {
+
+}
+
+@media screen and (max-width: 810px) {
+
+}
+
+@media screen and (max-width: 460px) {
+
+}
+
+@media screen and (max-width: 390px) {
+    
+}
