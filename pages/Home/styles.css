@@ -6,9 +6,7 @@ main {
 
 body {
     background-color: #ffecfd;
-    ;
 }
-
 
 * {
     margin: 0;
@@ -161,9 +159,6 @@ a.button:hover {
     color: #fff;
 }
 
-footer {
-    margin-top: -20px;
-}
 
 @media screen and (max-width: 1241px) {
     .slide .image{

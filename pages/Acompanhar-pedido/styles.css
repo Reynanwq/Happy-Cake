@@ -11,7 +11,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     width: 300px;
     height: 300px;
     margin-top: 100px;
@@ -57,26 +56,6 @@ input[type="search"]:focus {
 
 .pedido-button:hover {
     background-color: #126969;
-}
-
-footer {
-    margin-top: 50px;
-}
-
-@media screen and (max-width: 1608px) {
-    /*ok*/
-}
-
-@media screen and (max-width: 1540px) {
-    /*ok*/
-}
-
-@media screen and (max-width: 1329px) {
-    /*ok*/
-}
-
-@media screen and (max-width: 983px) {
-    /*ok*/
 }
 
 @media screen and (max-width: 810px) {
@@ -207,10 +186,8 @@ footer {
 .menu {
     justify-content: center;
     align-items: center;
-
     width: 100vw;
     height: 150px;
-
 }
 
 .menu ul {

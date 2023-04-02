@@ -140,17 +140,22 @@ footer {
      padding-top: 10px;
      padding-left: 25px;
  }
+
+ .footer-section h3 {
+    font-size: 13px;
+}
+ 
 }
 
 @media screen and (max-width: 440px) {
     .footer-section {
         height: 50%;
-        padding-top: 10px;
-        padding-left: 20px;
+        padding-top: 1000px;
     }
 
     .footer-section h3 {
-        font-size: 16px;
-    
+        font-size: 13px;
     }
+
+
 }
