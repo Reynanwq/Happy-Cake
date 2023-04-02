@@ -6,6 +6,7 @@
     --cor03: #eceae4;
     --cor04: #a2e1db;
     --cor05: #55cbcd;
+    --cor06: #e4fff4;
 }
 
 /* Fonte do Header e para os demais textos do site (exceto o footer) */
@@ -44,13 +45,13 @@ body {
     font-family: 'Courier New', Courier, monospace, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--cor02);
+    background-color: var(--cor06);
 
 }
 
 
 main {
-    background-color: var(--cor02);
+    background-color: var(--cor06);
     min-width: 300px;
     max-width: 1200px;
     margin: auto;
@@ -61,6 +62,7 @@ main {
     text-align: center;
     padding: 30px 10px;
     font-family: 'Public Sans', sans-serif;
+    text-transform: uppercase;
     font-size: 2em;
     letter-spacing: 2px;
 }
@@ -290,7 +292,7 @@ footer .boxs:nth-child(4) {
 }
 
 @media screen and (max-width: 810px) {
-    
+
     .logo-center {
         width: 50%;
         height: 200px;
@@ -318,7 +320,7 @@ footer .boxs:nth-child(4) {
         height: 220px;
     }
 
-    .user-box{
+    .user-box {
         right: 20px;
         top: 10px;
         width: 157px;
@@ -338,105 +340,105 @@ footer .boxs:nth-child(4) {
     }
 
 
-.menu {
-    justify-content: center;
-    align-items: center;
+    .menu {
+        justify-content: center;
+        align-items: center;
 
-    width: 100vw;
-    height: 150px;
+        width: 100vw;
+        height: 150px;
 
-}
+    }
 
-.menu ul {
-    flex-wrap: wrap;
-}
+    .menu ul {
+        flex-wrap: wrap;
+    }
 
-.menu ul li {
-    height: 42px;
-    text-align: center;
-}
+    .menu ul li {
+        height: 42px;
+        text-align: center;
+    }
 
-.menu ul li a {
-    letter-spacing: 1px;
-    padding: 15px 3px 0 15px;
-    height: 100%;
-}
-
-
-.search {
-    top: 255px;
-    left: 50.5%;
-    transform: translate(-50%, -50%);
-    background-color: #56aaaa;
-    height: 60px;
-    border-radius: 15px;
-    padding: 10px;
-}
-
-.search:hover>.box-txt {
-    width: 120px;
-    padding: 0 6px;
-
-}
-
-.search:hover>.btn-search {
-    background-color: #333;
-    margin-left: 3px;
-
-}
-
-.btn-search {
-    color: #FFFFFF;
-    float: right;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #56aaaa;
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    align-items: center;
-    transition: 0.4s;
-}
-
-.box-txt {
-    border: none;
-    background-color: #56aaaa;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: #fff;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 0px;
-    cursor: pointer;
-}
+    .menu ul li a {
+        letter-spacing: 1px;
+        padding: 15px 3px 0 15px;
+        height: 100%;
+    }
 
 
-.menu {
-    justify-content: center;
-    align-items: center;
+    .search {
+        top: 255px;
+        left: 50.5%;
+        transform: translate(-50%, -50%);
+        background-color: #56aaaa;
+        height: 60px;
+        border-radius: 15px;
+        padding: 10px;
+    }
 
-    width: 100vw;
-    height: 150px;
+    .search:hover>.box-txt {
+        width: 120px;
+        padding: 0 6px;
 
-}
+    }
 
-.menu ul {
-    flex-wrap: wrap;
-}
+    .search:hover>.btn-search {
+        background-color: #333;
+        margin-left: 3px;
 
-.menu ul li {
-    height: 42px;
-    text-align: center;
-}
+    }
 
-.menu ul li a {
-    letter-spacing: 1px;
-    padding: 15px 3px 0 15px;
-    height: 100%;
-}
+    .btn-search {
+        color: #FFFFFF;
+        float: right;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #56aaaa;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        align-items: center;
+        transition: 0.4s;
+    }
+
+    .box-txt {
+        border: none;
+        background-color: #56aaaa;
+        outline: none;
+        float: left;
+        padding: 0;
+        color: #fff;
+        font-size: 16px;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 0px;
+        cursor: pointer;
+    }
+
+
+    .menu {
+        justify-content: center;
+        align-items: center;
+
+        width: 100vw;
+        height: 150px;
+
+    }
+
+    .menu ul {
+        flex-wrap: wrap;
+    }
+
+    .menu ul li {
+        height: 42px;
+        text-align: center;
+    }
+
+    .menu ul li a {
+        letter-spacing: 1px;
+        padding: 15px 3px 0 15px;
+        height: 100%;
+    }
 
 }
 
@@ -446,8 +448,8 @@ footer .boxs:nth-child(4) {
         height: 120px;
     }
 
-.search {
-    top: 225px;
-}
+    .search {
+        top: 225px;
+    }
 
 }
