@@ -156,6 +156,10 @@ section form {
 
 }
 
+.back-login {
+    margin-top: 20px;
+}
+
 input[type="email"],
 input[type="password"],
 input[type="text"] {
