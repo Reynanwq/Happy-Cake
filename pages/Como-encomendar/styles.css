@@ -33,10 +33,17 @@ header {
 }
 
 .content-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
     width: 700px;
     height: 300px;
     margin-top: 40px;
     border-radius: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
 
     font-family: 'Public Sans', sans-serif;
     letter-spacing: 1px;
@@ -44,6 +51,17 @@ header {
     color: #FFFFFF;
     background-color: #56aaaa;
 }
+
+.content-lista h2 {
+
+    margin-top: 15px;
+}
+
+.content-lista ul {
+    margin-top: 15px;
+}
+
+
 
 .content-payment {
     display: flex;
@@ -63,7 +81,7 @@ header {
 
 }
 
-.content-payment h1 {
+.content-payment h2 {
     margin-top: 15px;
 }
 
