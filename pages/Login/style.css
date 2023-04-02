@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: #fff1ff;
+    background-color: #e4fff4;
 
 }
 
@@ -31,7 +31,7 @@ main {
     justify-content: center;
 
     width: 1140px;
-    height: 700px;
+    height: 1000px;
     margin-top: 50px;
 }
 
@@ -93,6 +93,7 @@ main {
     height: 530px;
     border-radius: 10px;
 
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
     background-color: #FFFFFF;
 }
 
@@ -195,30 +196,16 @@ input[type="password"]:focus {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 1608px) {
+@media screen and (max-width: 1608px) {}
 
-}
+@media screen and (max-width: 1540px) {}
 
-@media screen and (max-width: 1540px) {
+@media screen and (max-width: 1329px) {}
 
-}
+@media screen and (max-width: 983px) {}
 
-@media screen and (max-width: 1329px) {
+@media screen and (max-width: 810px) {}
 
-}
+@media screen and (max-width: 460px) {}
 
-@media screen and (max-width: 983px) {
-
-}
-
-@media screen and (max-width: 810px) {
-
-}
-
-@media screen and (max-width: 460px) {
-
-}
-
-@media screen and (max-width: 390px) {
-    
-}
+@media screen and (max-width: 390px) {}
