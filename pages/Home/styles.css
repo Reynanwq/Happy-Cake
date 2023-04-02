@@ -165,20 +165,14 @@ footer {
     margin-top: -20px;
 }
 
-@media screen and (max-width: 1608px) {
-    /*ok*/
-}
+@media screen and (max-width: 1241px) {
+    .slide .image{
+        width: 100%;
+    }    
 
-@media screen and (max-width: 1540px) {
-    /*ok*/
-}
-
-@media screen and (max-width: 1329px) {
-    /*ok*/
-}
-
-@media screen and (max-width: 983px) {
-    /*ok*/
+    main{
+        margin: 50px;
+    }
 }
 
 @media screen and (max-width: 810px) {
@@ -197,6 +191,28 @@ footer {
         height: 250px;
     }
 
+
+    .slide .image {
+    height: 100%;
+    width: 100%;
+    object-fit: fill; /*alterar aqui*/
+
+    }
+}
+
+
+@media screen and (max-width: 777px) {
+    
+    .slogan {
+        width: 650px;
+        height: 80px;
+        padding: 10px;
+    }
+
+    .slogan h1 {
+        font-size: 47px;
+        font-weight: bold;
+    }    
 }
 
 @media screen and (max-width: 600px) {
