@@ -198,6 +198,9 @@ footer {
     object-fit: fill; /*alterar aqui*/
 
     }
+    .swiper-pagination-bullet {
+        visibility: hidden;
+    }
 }
 
 
@@ -211,8 +214,34 @@ footer {
 
     .slogan h1 {
         font-size: 47px;
-        font-weight: bold;
     }    
+    .swiper-pagination-bullet {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 647px){
+
+    .slogan {
+        width: 550px;
+    }
+
+    .slogan h1 {
+        font-size: 42px;
+    }  
+
+    .slide .image {
+        object-fit: contain; /*alterar aqui*/
+    }
+
+    main{
+        margin-top: -150px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .swiper-pagination-bullet {
+        visibility: hidden;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -345,7 +374,36 @@ footer {
     padding: 15px 3px 0 15px;
     height: 100%;
 }
+    .swiper-pagination-bullet {
+        visibility: hidden;
+    }
 
+}
+
+@media screen and (max-width: 641px){
+    .slogan {
+        width: 450px;
+        text-align: center;
+        margin-top: -190px;
+    }
+
+    .slogan h1 {
+        font-size: 35px;
+    }
+
+    .swiper-pagination-bullet {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .slogan {
+        margin-top: -250px;
+    }
+
+    main{
+        margin-top: -250px;
+    }
 }
 
 @media screen and (max-width: 465px) {
@@ -354,8 +412,16 @@ footer {
         height: 120px;
     }
 
-.search {
-    top: 225px;
-}
+    .search {
+        top: 225px;
+    }
+
+    .slogan {
+        margin-top: -290px;
+    }
+
+    main{
+        margin-top: -300px;
+    }
 
 }
