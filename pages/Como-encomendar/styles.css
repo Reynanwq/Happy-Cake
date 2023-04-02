@@ -18,11 +18,16 @@ header {
     flex-direction: column;
     align-items: center;
 
-    margin-top: 25px;
+    margin-top: 40px;
     gap: 10px;
 
     color: #000000;
 
+}
+
+.content1 h1,
+.content1 h3 {
+    font-family: 'Ibarra Real Nova', sans-serif;
 }
 
 .content1 h3:hover {
@@ -38,12 +43,13 @@ header {
     align-items: center;
 
 
-    width: 700px;
-    height: 300px;
+    width: 800px;
+    height: 400px;
     margin-top: 40px;
     border-radius: 15px;
     padding-left: 35px;
     padding-right: 35px;
+    padding-bottom: 15px;
 
     font-family: 'Public Sans', sans-serif;
     letter-spacing: 1px;
@@ -59,9 +65,14 @@ header {
 
 .content-lista ul {
     margin-top: 15px;
+    line-height: 25px;
 }
 
+.content-lista ul li:hover {
+    font-size: 18px;
+    color: #ffffa8;
 
+}
 
 .content-payment {
     display: flex;
@@ -72,6 +83,7 @@ header {
     height: 200px;
     margin-top: 40px;
     border-radius: 15px;
+    padding-bottom: 20px;
 
     font-family: 'Public Sans', sans-serif;
     letter-spacing: 1px;
