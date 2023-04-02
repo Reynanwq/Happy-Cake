@@ -183,23 +183,6 @@ aside a {
     color: #FFFFFF;
 }
 
-footer {
-    width: 100%;
-    min-height: 250px;
-    margin-top: 40px;
-
-    display: flex;
-}
-
-footer .boxs {
-    width: 395px;
-    min-height: 150px;
-    padding: 20px;
-}
-
-footer .boxs:nth-child(4) {
-    width: 400px;
-}
 
 .boxs h2 {
     color: white;
