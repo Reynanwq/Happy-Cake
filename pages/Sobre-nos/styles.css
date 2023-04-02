@@ -229,36 +229,6 @@ h2 {
   width: 300px;
 }
 
-
-footer .footer-info {
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-
-  margin-top: 50px;
-
-}
-
-footer>p {
-  color: black;
-  padding-left: 23px;
-  text-decoration: none;
-}
-
-footer a {
-  text-decoration: none;
-  color: black;
-  font-weight: bolder;
-}
-
-.developer {
-  text-align: center;
-  font-size: 1.0em;
-  text-align: center;
-  background-color: white;
-  padding: 5px;
-}
-
 .cars {
   height: 600px;
   margin: 0;
@@ -360,7 +330,6 @@ h3 {
     content: "";
     width: 30%;
     height: 4px;
-    background: #555;
     position: absolute;
     top: 70.9%;
   }
@@ -376,7 +345,6 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fce2e8;
     margin: 100px;
   }
 
@@ -386,7 +354,6 @@ h3 {
     margin-left: 250px;
     margin-right: 250px;
     color: #fff;
-    background-color: #bb5728;
     padding: 25px 35px;
     border-radius: 8px;
     transition: all .45s ease;
@@ -400,7 +367,6 @@ h3 {
     margin-left: 250px;
     margin-right: 250px;
     color: #fff;
-    background-color: #bb5728;
     padding: 25px 35px;
     border-radius: 8px;
     transition: all .45s ease;
@@ -414,7 +380,6 @@ h3 {
     margin-left: 250px;
     margin-right: 250px;
     color: #fff;
-    background-color: #bb5728;
     padding: 25px 35px;
     border-radius: 8px;
     transition: all .45s ease;
@@ -700,9 +665,13 @@ h3 {
       height: 120px;
   }
 
-.search {
-  top: 225px;
-}
+  .search {
+    top: 225px;
+  }
+
+  h3{
+    margin: 0px;
+  }
 
 @media screen and (max-width: 390px) {
   /**/
