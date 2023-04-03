@@ -410,6 +410,29 @@ a.button:hover {
     main {
         margin-top: -250px;
     }
+
+    /* .menu {
+        height: 100px;
+        padding-top: 10px;
+    } */
+
+    /* .menu ul li a {
+        margin-left: 10px;
+
+        padding-left: 0px;
+
+        text-align: center;
+    } */
+
+    /* .navmenu {
+        margin: auto;
+    }
+
+    .navmenu2 {
+        margin: auto;
+    } */
+
+
 }
 
 @media screen and (max-width: 465px) {

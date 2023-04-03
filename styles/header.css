@@ -4,7 +4,7 @@ header {
     justify-content: center;
 
     /* width: 100vw; */
-    height: 350px;
+    height: 400px;
     /* Alterei de 400px para 350px */
     padding-bottom: 350px;
 
@@ -184,5 +184,12 @@ header {
 .menu ul li a:hover {
     background-color: #126969;
     border-radius: 2px;
+
+}
+
+@media screen and (max-width: 465px) {
+    header {
+        height: 350px;
+    }
 
 }

@@ -288,4 +288,31 @@ header {
         top: 225px;
     }
 
+    .content1 {
+        width: 100%;
+        margin-top: 470px;
+        
+    }
+
+    .content-lista {
+
+        margin: auto;
+        margin-bottom: 20px;
+
+        width: 100%;
+        height: 100%;
+
+        padding-left: 7px;
+    }
+
+    .content-payment {
+        margin: auto;
+        margin-bottom: 200px;
+
+        width: 100%;
+        height: 100%;
+
+        
+    }
+
 }
