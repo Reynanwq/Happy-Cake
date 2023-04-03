@@ -3,7 +3,7 @@ header {
     flex-direction: row;
     justify-content: center;
 
-    width: 100vw;
+    /* width: 100vw; */
     height: 400px;
     padding-bottom: 350px;
 
@@ -142,7 +142,7 @@ header {
     justify-content: center;
     align-items: center;
 
-    width: 100vw;
+    /* width: 100vw; */
     height: 45px;
 
     background-color: #56aaaa;

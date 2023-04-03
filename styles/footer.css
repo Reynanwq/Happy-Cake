@@ -4,7 +4,7 @@ footer {
     justify-content: center;
     align-items: center;
 
-    width: 100vw;
+    /* width: 100vw; */
     height: 200px;
 
     background-color: #56aaaa;
@@ -73,7 +73,7 @@ footer {
     align-items: center;
 
 
-    width: 100vw;
+    /* width: 100vw; */
     height: 60px;
 
 
