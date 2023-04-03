@@ -233,8 +233,12 @@ footer {
         height: 120px;
     }
 
-.search {
-    top: 225px;
-}
+    .search {
+        top: 225px;
+    }
+
+    main {
+        padding-bottom: 0px;
+    }
 
 }
