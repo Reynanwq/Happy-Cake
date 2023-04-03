@@ -425,6 +425,14 @@ aside a {
 
 }
 
+@media screen and (max-width: 465px) {
+    .logo-center img {
+        width: 130px;
+        height: 120px;
+    }
+    /* Adicionei esse media para corrigir o header que não estava padronizado com o da Home */
+}
+
 @media screen and (max-width: 390px) {
     .logo-center img {
         width: 130px;

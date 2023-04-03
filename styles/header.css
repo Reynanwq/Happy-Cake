@@ -4,7 +4,8 @@ header {
     justify-content: center;
 
     /* width: 100vw; */
-    height: 400px;
+    height: 350px;
+    /* Alterei de 400px para 350px */
     padding-bottom: 350px;
 
     background-color: #fff;
