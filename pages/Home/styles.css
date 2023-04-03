@@ -19,7 +19,12 @@ body {
     height: 70vh;
     width: 100%;
 
-    margin-top: 50px;
+    /* 
+    margin-top alterado de 50px para 100px
+    adicionado a linha margin-bottom: -80px
+    */
+    margin-top: 110px;
+    margin-bottom: -80px;
 }
 
 .wrapper,
@@ -418,7 +423,12 @@ a.button:hover {
     }
 
     .slogan {
-        margin-top: -290px;
+        /* 
+        Adicionado a linha margin-bottom
+        Alterado o valor de margin-top de -300px para -130px
+         */
+        margin-top: -130px;
+        margin-bottom: -100px;
     }
 
     main {
