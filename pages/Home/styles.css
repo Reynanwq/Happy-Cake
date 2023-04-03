@@ -428,11 +428,17 @@ a.button:hover {
         Alterado o valor de margin-top de -300px para -130px
          */
         margin-top: -130px;
-        margin-bottom: -100px;
+        margin-bottom: -90px;
     }
 
     main {
-        margin-top: -300px;
+        margin-top: -290px;
+    }
+
+    .carrossel {
+        height: 300px;
+        margin-top: 270px;
+        margin-bottom: 100px;
     }
 
 }
