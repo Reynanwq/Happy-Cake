@@ -632,7 +632,13 @@ header {
   }
 
   .espace{
-    margin: 0px 0px 0px -200px;
+    margin: 0px 0px 0px -240px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  
   }
 }
 
@@ -766,6 +772,12 @@ header {
     letter-spacing: 1px;
     padding: 15px 3px 0 15px;
     height: 100%;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  
   }
 
 }
