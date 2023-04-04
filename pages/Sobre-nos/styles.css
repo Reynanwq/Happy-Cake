@@ -632,7 +632,7 @@ header {
   }
 
   .espace{
-    margin: 0px 0px 0px -240px;
+    margin: 0px 0px 0px -0px;
   }
 
   .row {
@@ -855,12 +855,16 @@ header {
     padding: 0px 70px;
     width: 450px;
   }
+
+
+  .espace{
+    top: 500px;
+    left: 400px;
+  }
 }
 
-@media screen and (max-width: 465px) {
-  .espace{
-    margin: 0px 0px 0px -310px;
-  }
+@media screen and (max-width: 460px) {
+
 }
 
   @media screen and (max-width: 390px) {
