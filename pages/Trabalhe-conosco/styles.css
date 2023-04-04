@@ -241,4 +241,7 @@ footer {
         padding-bottom: 0px;
     }
 
+    .content h2 {
+        text-align: center;
+    }
 }
