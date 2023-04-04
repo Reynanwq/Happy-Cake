@@ -849,6 +849,20 @@ header {
     margin: 0px;
   }
 
+  .mvv {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 70px;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .espace{
+    margin: 0px 0px 0px -310px;
+  }
+}
+
   @media screen and (max-width: 390px) {
     /**/
 
@@ -867,5 +881,4 @@ header {
 
   }
 
-}
 
