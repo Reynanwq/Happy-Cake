@@ -109,24 +109,6 @@ article {
   font-family: 'Ibarra Real Nova', sans-serif;
 }
 
-.espace h1:before,
-.espace h1:after {
-  content: "";
-  width: 35%;
-  height: 4px;
-  background: #555;
-  position: absolute;
-  top: 61%;
-}
-
-.espace h1:before {
-  left: 0;
-}
-
-.espace h1:after {
-  right: 0;
-}
-
 .espace h3 {
   font-size: 30px;
 }
@@ -285,198 +267,198 @@ h3 {
 
 
 header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
-  /* width: 100vw; */
-  height: 400px;
-  /* Alterei de 400px para 350px */
-  padding-bottom: 350px;
+    /* width: 100vw; */
+    height: 400px;
+    /* Alterei de 400px para 350px */
+    padding-bottom: 350px;
 
-  background-color: #fff;
+    background-color: #fff;
 }
 
 
 .user-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-  position: absolute;
-  right: 20px;
-  top: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 
-  width: 210px;
-  height: 35px;
-  border-radius: 10px;
+    width: 210px;
+    height: 35px;
+    border-radius: 10px;
 
-  background-color: #56aaaa;
+    background-color: #56aaaa;
 }
 
 .user-box ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: no-wrap;
+    list-style: none;
+    display: flex;
+    flex-wrap: no-wrap;
 }
 
 .user-box ul li {
-  display: inline-block;
+    display: inline-block;
 
-  height: 42px;
-  min-width: 70px;
+    height: 42px;
+    min-width: 70px;
 
-  text-align: center;
+    text-align: center;
 }
 
 .user-box ul li a {
-  display: block;
-  color: #ffffff;
-  text-decoration: none;
-  font-family: 'Public-Sans', sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 1px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Public-Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
 
-  font-size: 10px;
-  padding: 15px 15px 0 15px;
-  height: 100%;
+    font-size: 10px;
+    padding: 15px 15px 0 15px;
+    height: 100%;
 }
 
 
 .user-box ul li a:hover {
-  color: #fafa97;
+    color: #fafa97;
 }
 
 
 .logo-center {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
-  width: 80%;
-  height: 300px;
+    width: 80%;
+    height: 300px;
 }
 
 .logo-center strong {
-  font-family: 'Dancing Script', sans-serif;
-  font-size: 120px;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 120px;
 
 }
 
 .logo-center img {
-  width: 300px;
-  height: 300px;
+    width: 300px;
+    height: 300px;
 }
 
 .search {
-  position: absolute;
-  top: 335px;
-  left: 50.5%;
-  transform: translate(-50%, -50%);
-  background-color: #56aaaa;
-  height: 60px;
-  border-radius: 15px;
-  padding: 10px;
+    position: absolute;
+    top: 335px;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
+    background-color: #56aaaa;
+    height: 60px;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .search:hover>.box-txt {
-  width: 240px;
-  padding: 0 6px;
+    width: 240px;
+    padding: 0 6px;
 
 }
 
 .search:hover>.btn-search {
-  background-color: #333;
-  margin-left: 3px;
+    background-color: #333;
+    margin-left: 3px;
 
 }
 
 .btn-search {
-  color: #FFFFFF;
-  float: right;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #56aaaa;
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  align-items: center;
-  transition: 0.4s;
+    color: #FFFFFF;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #56aaaa;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    transition: 0.4s;
 }
 
 .box-txt {
-  border: none;
-  background-color: #56aaaa;
-  outline: none;
-  float: left;
-  padding: 0;
-  color: #fff;
-  font-size: 16px;
-  transition: 0.4s;
-  line-height: 40px;
-  width: 0px;
-  cursor: pointer;
+    border: none;
+    background-color: #56aaaa;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    cursor: pointer;
 }
 
 
 .menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-  /* width: 100vw; */
-  height: 45px;
+    /* width: 100vw; */
+    height: 45px;
 
-  background-color: #56aaaa;
+    background-color: #56aaaa;
 }
 
 .menu ul {
 
-  list-style: none;
-  display: flex;
-  flex-wrap: no-wrap;
+    list-style: none;
+    display: flex;
+    flex-wrap: no-wrap;
 
 
 }
 
 .menu ul li {
-  display: inline-block;
+    display: inline-block;
 
-  height: 42px;
-  min-width: 80px;
+    height: 42px;
+    min-width: 80px;
 
-  text-align: center;
+    text-align: center;
 }
 
 .menu ul li a {
-  display: block;
-  color: #ffffff;
-  text-decoration: none;
-  font-family: 'Public-Sans', sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 1px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Public-Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
 
-  font-size: 11px;
-  padding: 15px 15px 0 15px;
-  height: 100%;
+    font-size: 11px;
+    padding: 15px 15px 0 15px;
+    height: 100%;
 }
 
 .menu ul li a:hover {
-  background-color: #126969;
-  border-radius: 2px;
+    background-color: #126969;
+    border-radius: 2px;
 
 }
 
 @media screen and (max-width: 465px) {
-  header {
-      height: 350px;
-  }
+    header {
+        height: 350px;
+    }
 
 }
 
@@ -486,30 +468,14 @@ header {
 
   /*TELAS MENORES QUE ALGUMA RESOLUÇÃO*/
   /*linha do titulo*/
-  .espace h1:before,
-  .espace h1:after {
-    content: "";
-    width: 35%;
-    height: 4px;
-    background: #555;
-    position: absolute;
-    top: 70.9%;
-  }
+
 
 }
 
 @media screen and (max-width: 1540px) {
   /*imagem das fabricas + linha do titulo*/
 
-  .espace h1:before,
-  .espace h1:after {
-    content: "";
-    width: 35%;
-    height: 4px;
-    background: #555;
-    position: absolute;
-    top: 70.9%;
-  }
+
 
   .mvv img {
     display: flex;
@@ -522,14 +488,6 @@ header {
 @media screen and (max-width: 1329px) {
 
   /*margin + img das fabricas + linha do titulo*/
-  .espace h1:before,
-  .espace h1:after {
-    content: "";
-    width: 30%;
-    height: 4px;
-    position: absolute;
-    top: 70.9%;
-  }
 
   .mvv img {
     display: flex;
@@ -587,15 +545,7 @@ header {
 @media screen and (max-width: 983px) {
 
   /*linha do titulo + h1 + p,h3 + img fabrica*/
-  .espace h1:before,
-  .espace h1:after {
-    content: "";
-    width: 25%;
-    height: 4px;
-    background: #555;
-    position: absolute;
-    top: 70.9%;
-  }
+
 
   .espace h1 {
     font-size: 32px;
@@ -797,14 +747,6 @@ header {
 
 @media screen and (max-width: 460px) {
 
-  /*linha do titulo*/
-  .espace h1:before,
-  .espace h1:after {
-    width: 13%;
-    height: 3px;
-    top: 69.5%;
-  }
-
   .espace h1 {
     font-size: 23px;
   }
@@ -872,14 +814,6 @@ header {
 
   @media screen and (max-width: 390px) {
     /**/
-
-    /*linha do titulo*/
-    .espace h1:before,
-    .espace h1:after {
-      width: 13%;
-      height: 3px;
-      top: 69.8%;
-    }
 
     .section-local h1 {
       font-size: 40px;
