@@ -44,7 +44,7 @@ main {
 .mvv {
   display: flex;
   flex-direction: column;
-  padding: 0px 70px;
+  padding: 10px 70px;
   width: 550px;
   text-decoration: none;
   color: #000000;
@@ -70,9 +70,9 @@ main {
 
 .mvv img {
   display: flex;
-  width: 550px;
+  width: 110%;
   height: 350px;
-  margin: 50px;
+  margin: 30px 50px;
 }
 
 .img-article {
@@ -856,10 +856,13 @@ header {
   .mvv {
     display: flex;
     flex-direction: column;
-    padding: 0px 70px;
-    width: 450px;
+    padding: 0px;
+    width: 400px;
   }
 
+  .mvv-text h1 {
+    padding-top: 100px;
+  }
 
   .espace{
     top: 500px;
