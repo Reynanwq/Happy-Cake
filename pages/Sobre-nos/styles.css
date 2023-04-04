@@ -37,6 +37,8 @@ main {
   flex-direction: column;
   align-items: center;
   background-color: #e4fff4;
+  margin: 0;
+  padding: 0;
 }
 
 .mvv {
@@ -91,7 +93,7 @@ article {
   flex-direction: column;
   align-items: center;
 
-  margin: 100px;
+  margin: 0px;
 
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
   background-color: white;
@@ -124,7 +126,7 @@ article {
 .entregas {
   display: flex;
   flex-direction: column;
-  margin-left: 190px;
+ margin-left: 190px;
   margin-right: 190px;
   color: #fff;
   background-color: #56aaaa;
@@ -500,7 +502,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 100px;
+    
   }
 
   .fabrica {
@@ -584,6 +586,25 @@ header {
 
 }
 
+@media screen and (max-width: 912px) {
+  .img-article {
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .espaceCake {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-center strong {
+    font-size: 90px;
+  }
+
+}
+
+
 @media screen and (max-width: 810px) {
   .logo-center {
     width: 50%;
@@ -591,7 +612,7 @@ header {
   }
 
   .logo-center strong {
-    font-size: 100px;
+    font-size: 80px;
   }
 
   .logo-center img {
@@ -831,3 +852,4 @@ header {
   }
 
 }
+
