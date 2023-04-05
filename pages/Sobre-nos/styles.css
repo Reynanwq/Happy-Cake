@@ -77,7 +77,7 @@ main {
 
 .img-article {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row;
   margin-top: 90px;
 }
