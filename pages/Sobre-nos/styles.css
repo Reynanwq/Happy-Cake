@@ -52,9 +52,6 @@ main {
   background-color: #e4fff4;
 }
 
-.mvv-text {
-  /* margin: -100px; */
-}
 
 .mvv-text h1 {
   font-size: 90px;
@@ -70,7 +67,7 @@ main {
 
 .mvv img {
   display: flex;
-  width: 110%;
+  width: 525px;
   height: 350px;
   margin: 30px 50px;
 }
