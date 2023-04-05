@@ -45,7 +45,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 10px 70px;
-  width: 550px;
+  /* width: 550px; */
   text-decoration: none;
   color: #000000;
   text-align: center;
@@ -53,7 +53,7 @@ main {
 }
 
 .mvv-text {
-  margin: -100px;
+  /* margin: -100px; */
 }
 
 .mvv-text h1 {
