@@ -17,8 +17,6 @@ footer {
 .footer-section {
     display: flex;
     flex-direction: column;
-
-
     width: 300px;
     height: 80%;
     padding-top: 20px;
@@ -75,7 +73,7 @@ footer {
 
 
     /* width alterado de 100vw para 100% */
-    width: 100%; 
+    width: 100%;
     height: 60px;
 
 
@@ -121,8 +119,8 @@ footer {
 
 @media screen and (max-width: 973px) {
     footer {
-           flex-wrap: wrap;
-           gap: 0px;
+        flex-wrap: wrap;
+        gap: 0px;
     }
 
 
@@ -132,21 +130,21 @@ footer {
         padding-top: 15px;
         padding-left: 30px;
     }
-    
+
 }
 
 @media screen and (max-width: 887px) {
     .footer-section {
-     width: 230px;
-     height: 50%;
-     padding-top: 10px;
-     padding-left: 25px;
- }
+        width: 230px;
+        height: 50%;
+        padding-top: 10px;
+        padding-left: 25px;
+    }
 
- .footer-section h3 {
-    font-size: 13px;
-}
- 
+    .footer-section h3 {
+        font-size: 13px;
+    }
+
 }
 
 @media screen and (max-width: 440px) {
