@@ -10,14 +10,14 @@
         <td>HTML</td>
         <td>CSS</td>
         <td>JavaScript</td>
-        <td>git</td>
+        <td>Git</td>
     </tr>
 <table>
 
 ---
 
 <h2 align="center"> 🤓 Contato</h2> 
-<p align="center">(adicionar email)</p>
+<p align="center">reynanwq@gmail.com</p>
 
 ---
 

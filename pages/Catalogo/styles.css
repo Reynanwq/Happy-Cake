@@ -1,0 +1,460 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #fcb9aa;
+    --cor02: #ffdbcc;
+    --cor03: #eceae4;
+    --cor04: #a2e1db;
+    --cor05: #55cbcd;
+    --cor06: #e4fff4;
+}
+
+/* Fonte do Header e para os demais textos do site (exceto o footer) */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* font-family: 'Great Vibes', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@1&display=swap');
+
+/* font-family: 'Ibarra Real Nova', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap');
+
+/* font-family: 'Public Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap');
+
+/* font-family: 'Great Vibes', cursive;
+font-family: 'Pacifico', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    /* Configuração Global */
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor06);
+
+}
+
+
+main {
+    background-color: var(--cor06);
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.info-catalogo {
+    text-align: center;
+    padding: 30px 10px;
+    font-family: 'Public Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.info-catalogo::after {
+    content: "\ " "\1F370";
+    /* Adicionando um icone no final
+    "\ " é para adicionar um espaço entre a última letra e o icon */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+
+div p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+main div:hover {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+
+    transform: scale(1.1, 1.1);
+    transition: 0.25s;
+
+}
+
+
+.bloco-img {
+
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.img-bolo {
+    width: 350px;
+    height: 254px;
+}
+
+.bloco-img {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+
+    color: white;
+    padding: 5px;
+    background-color: var(--cor05);
+    box-shadow: 0px 0px 3px black;
+}
+
+aside {
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.315);
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+aside a {
+    color: black;
+}
+
+.more-information01 {
+    background-color: #56aaaa;
+    margin: -10px -10px 10px -10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.more-information01 ul {
+    list-style: none;
+}
+
+.more-information01 h2 {
+    margin-bottom: 10px;
+}
+
+.more-information01 li::after {
+    content: "\ " "\1F4F1";
+}
+
+.more-information02 li {
+    padding-bottom: 7px;
+}
+
+.more-information02 ul {
+    columns: 2;
+    text-align: center;
+    list-style: none;
+}
+
+.more-information01 ul li a,
+.more-information02 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.more-information01 ul li a:hover,
+.more-information02 ul li a:hover {
+    color: #FFFFFF;
+}
+
+
+.boxs h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Ibarra Real Nova Bold', sans-serif;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.boxs ul li {
+    margin: 10px 0px;
+}
+
+.box-ajudawpp:hover {
+    color: green;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.box-ajudainsta:hover {
+    color: #D9328E;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.boxs p {
+    text-align: justify;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+}
+
+.rodape {
+    text-align: center;
+    background-color: var(--cor01);
+}
+
+.developer {
+    margin: 0px;
+    text-decoration: none;
+}
+
+.developer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.developer a:hover {
+    text-decoration: underline var(--cor05);
+}
+
+@media (max-width: 950px) {
+    footer {
+        flex-direction: column;
+        /* 
+        Abaixo dos 950px, o footer fica em colunas
+
+        As configurações abaixo são apenas para organização do conteúdo
+
+        Obs.: É necessário fazer tudo dentro deste @media para que funcione. */
+    }
+
+    footer .boxs {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .boxs:nth-child(4) {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1608px) {
+    /*ok*/
+}
+
+@media screen and (max-width: 1540px) {
+    /*ok*/
+}
+
+@media screen and (max-width: 1329px) {
+    /*ok*/
+}
+
+@media screen and (max-width: 983px) {
+    /*ok*/
+}
+
+@media screen and (max-width: 810px) {
+
+    .logo-center {
+        width: 50%;
+        height: 200px;
+    }
+
+    .logo-center strong {
+        font-size: 100px;
+    }
+
+    .logo-center img {
+        width: 250px;
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .logo-center strong {
+        font-size: 50px;
+    }
+
+    .logo-center img {
+        width: 230px;
+        height: 220px;
+    }
+
+    .user-box {
+        right: 20px;
+        top: 10px;
+        width: 157px;
+        height: 30px;
+    }
+
+    .user-box ul li {
+        height: 38px;
+        text-align: center;
+    }
+
+    .user-box ul li a {
+        letter-spacing: 1px;
+        font-size: 9px;
+        padding: 15px 15px 0 15px;
+        height: 100%;
+    }
+
+
+    .menu {
+        justify-content: center;
+        align-items: center;
+
+        width: 100vw;
+        height: 150px;
+
+    }
+
+    .menu ul {
+        flex-wrap: wrap;
+    }
+
+    .menu ul li {
+        height: 42px;
+        text-align: center;
+    }
+
+    .menu ul li a {
+        letter-spacing: 1px;
+        padding: 15px 3px 0 15px;
+        height: 100%;
+    }
+
+
+    .search {
+        top: 255px;
+        left: 50.5%;
+        transform: translate(-50%, -50%);
+        background-color: #56aaaa;
+        height: 60px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    .search:hover>.box-txt {
+        width: 120px;
+        padding: 0 6px;
+
+    }
+
+    .search:hover>.btn-search {
+        background-color: #333;
+        margin-left: 3px;
+
+    }
+
+    .btn-search {
+        color: #FFFFFF;
+        float: right;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #56aaaa;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        align-items: center;
+        transition: 0.4s;
+    }
+
+    .box-txt {
+        border: none;
+        background-color: #56aaaa;
+        outline: none;
+        float: left;
+        padding: 0;
+        color: #fff;
+        font-size: 16px;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 0px;
+        cursor: pointer;
+    }
+
+
+    .menu {
+        justify-content: center;
+        align-items: center;
+
+        width: 100vw;
+        height: 150px;
+
+    }
+
+    .menu ul {
+        flex-wrap: wrap;
+    }
+
+    .menu ul li {
+        height: 42px;
+        text-align: center;
+    }
+
+    .menu ul li a {
+        letter-spacing: 1px;
+        padding: 15px 3px 0 15px;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 465px) {
+    .logo-center img {
+        width: 130px;
+        height: 120px;
+    }
+
+    .search {
+        top: 225px;
+    }
+
+    main {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .container {
+        padding-bottom: 0px;
+    }
+
+    /* Adicionei esse media para corrigir o header que não estava padronizado com o da Home */
+}
+
+@media screen and (max-width: 390px) {
+    .logo-center img {
+        width: 130px;
+        height: 120px;
+    }
+
+    .search {
+        top: 225px;
+    }
+
+}

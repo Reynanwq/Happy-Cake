@@ -1,0 +1,221 @@
+body {
+    background-color: #e4fff4;
+}
+
+header {
+    background-color: #FFFFFF;
+}
+
+
+.pedido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 20px;
+
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
+    background-color: rgb(255, 255, 255, 0.6);
+}
+
+.pedido h3 {
+    margin-top: 40px;
+}
+
+input[type="search"] {
+    width: 230px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+input[type="search"]:focus {
+    border-color: #56aaaa;
+    outline: none;
+}
+
+.pedido-button {
+    width: 140px;
+    height: 40px;
+    margin-top: 40px;
+
+    background-color: #56aaaa;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.pedido-button:hover {
+    background-color: #126969;
+}
+
+@media screen and (max-width: 810px) {
+
+    .logo-center {
+        width: 50%;
+        height: 200px;
+    }
+
+    .logo-center strong {
+        font-size: 100px;
+    }
+
+    .logo-center img {
+        width: 250px;
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .logo-center strong {
+        font-size: 50px;
+    }
+
+    .logo-center img {
+        width: 230px;
+        height: 220px;
+    }
+
+    .user-box {
+        right: 20px;
+        top: 10px;
+        width: 157px;
+        height: 30px;
+    }
+
+    .user-box ul li {
+        height: 38px;
+        text-align: center;
+    }
+
+    .user-box ul li a {
+        letter-spacing: 1px;
+        font-size: 9px;
+        padding: 15px 15px 0 15px;
+        height: 100%;
+    }
+
+
+    .menu {
+        justify-content: center;
+        align-items: center;
+
+        width: 100vw;
+        height: 150px;
+
+    }
+
+    .menu ul {
+        flex-wrap: wrap;
+    }
+
+    .menu ul li {
+        height: 42px;
+        text-align: center;
+    }
+
+    .menu ul li a {
+        letter-spacing: 1px;
+        padding: 15px 3px 0 15px;
+        height: 100%;
+    }
+
+
+    .search {
+        top: 255px;
+        left: 50.5%;
+        transform: translate(-50%, -50%);
+        background-color: #56aaaa;
+        height: 60px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    .search:hover>.box-txt {
+        width: 120px;
+        padding: 0 6px;
+
+    }
+
+    .search:hover>.btn-search {
+        background-color: #333;
+        margin-left: 3px;
+
+    }
+
+    .btn-search {
+        color: #FFFFFF;
+        float: right;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #56aaaa;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        align-items: center;
+        transition: 0.4s;
+    }
+
+    .box-txt {
+        border: none;
+        background-color: #56aaaa;
+        outline: none;
+        float: left;
+        padding: 0;
+        color: #fff;
+        font-size: 16px;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 0px;
+        cursor: pointer;
+    }
+
+
+    .menu {
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 150px;
+    }
+
+    .menu ul {
+        flex-wrap: wrap;
+    }
+
+    .menu ul li {
+        height: 42px;
+        text-align: center;
+    }
+
+    .menu ul li a {
+        letter-spacing: 1px;
+        padding: 15px 3px 0 15px;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 465px) {
+    .logo-center img {
+        width: 130px;
+        height: 120px;
+    }
+
+    .search {
+        top: 225px;
+    }
+
+}
