@@ -175,7 +175,7 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
-
+    transition: 0.3s;
     font-size: 11px;
     padding: 15px 15px 0 15px;
     height: 100%;
@@ -184,7 +184,6 @@ header {
 .menu ul li a:hover {
     background-color: #126969;
     border-radius: 2px;
-
 }
 
 @media screen and (max-width: 465px) {

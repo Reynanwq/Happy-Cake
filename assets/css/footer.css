@@ -20,7 +20,7 @@ footer {
     width: 300px;
     height: 80%;
     padding-top: 20px;
-    padding-left: 40px;
+    padding-bottom: 30px;
 }
 
 .footer-section h3 {
@@ -44,25 +44,30 @@ footer {
 }
 
 .footer-section ul li a:hover {
+    transition: 0.3s;
     font-size: 16px;
     color: #fafa97;
 }
 
+.app h3 {
+    text-align: center;
+}
+
 .app ul {
+    justify-content: center;
     display: flex;
     gap: 10px;
 }
 
-.app img {
-    width: 40px;
-    height: 40px;
-
-    transition: 0.2s;
+.app li img {
+    width: 25px;
+    height: 25px;
+    transition: 0.3s;
 }
 
 .app img:hover {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 .copy {
@@ -83,8 +88,13 @@ footer {
 .copy img {
     width: 70px;
     height: 70px;
-
+    transition: 0.3s;
     margin-left: 10px;
+}
+
+.copy img:hover {
+    width: 75px;
+    height: 75px;
 }
 
 .container-copy {
@@ -114,6 +124,12 @@ footer {
 .social-copy img {
     width: 30px;
     height: 30px;
+    transition: 0.3s;
+}
+
+.social-copy img:hover {
+    width: 35px;
+    height: 35px;
 }
 
 

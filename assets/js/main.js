@@ -1,5 +1,5 @@
 document.onload(funcaoPaginaCarregada());
 
 function funcaoPaginaCarregada(){
-  window.location.assign('./pages/Home/index.html');
+  window.location.assign('../../html/index.html');
 } 
