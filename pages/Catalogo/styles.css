@@ -53,9 +53,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    align-content: space-around;
-    gap: 10px;
-    padding-bottom: 10px;
+    gap: 13px;
 }
 
 .img-bolo {
@@ -83,18 +81,18 @@ main {
 }
 
 .bloco-img:hover {
-    color: black; /* Aqui foi onde deu errado */
+    color: black;
     background-color: white;
     font-weight: bold;
 
-    transform: scale(1.1, 1.1);
+    transform: scale(1.06, 1.06);
     transition: 0.25s;
 }
 
 aside {
-    max-width: 1100px;
+    max-width: 1106px;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 15px;
     padding: 10px;
     border-bottom-left-radius: 10px;
@@ -102,19 +100,11 @@ aside {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.170);
 }
 
-aside a:hover {
-    text-decoration: underline;
-}
-
 .more-information01 {
     background-color: #56aaaa;
     margin: -10px -10px 10px -10px;
     padding: 10px;
     text-align: center;
-}
-
-.more-information01 ul {
-    list-style: none;
 }
 
 .more-information01 h2 {
@@ -132,33 +122,27 @@ aside a:hover {
 .more-information02 ul {
     columns: 2;
     text-align: center;
-    list-style: none;
 }
 
 .more-information01 ul li a,
 .more-information02 ul li a {
-    text-decoration: none;
     color: black;
 }
 
-.more-information01 ul li a:hover,
-.more-information02 ul li a:hover {
-    color: #FFFFFF;
-}
-
-.boxs h2 {
+.more-information01 a:hover,
+.more-information02 a:hover {
+    background-color: var(--cor05);
     color: white;
-    margin-bottom: 20px;
-    font-family: 'Ibarra Real Nova Bold', sans-serif;
-    letter-spacing: 1px;
-    color: white;
+
+    border-radius: 5px;
+    padding: 4px;
+
+    font-weight: bold;
+
+    transition: 0.25s;
 }
 
-.boxs ul li {
-    margin: 10px 0px;
-}
-
-/* Configurações do @media feitas por Reyna Paiva: https://github.com/Reynanwq */
+/* Configurações no @media feitas por Reyna Paiva: https://github.com/Reynanwq */
 
 @media screen and (max-width: 1608px) {
     /*ok*/
