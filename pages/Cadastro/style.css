@@ -228,4 +228,14 @@ input[type="password"]:focus {
 
 @media screen and (max-width: 460px) {}
 
-@media screen and (max-width: 390px) {}
+@media screen and (max-width: 390px) {
+    .logo-center img {
+        width: 130px;
+        height: 120px;
+    }
+
+    .search {
+        top: 225px;
+    }
+
+}

@@ -466,3 +466,9 @@ a.button:hover {
     }
 
 }
+
+@media screen and (max-width: 360px) {
+    .slogan {
+        /* width: 350px; */
+    }
+}
