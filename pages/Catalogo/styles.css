@@ -357,3 +357,9 @@ aside {
     }
 
 }
+
+@media screen and (max-width: 360px) { 
+    .bloco-img:hover {
+        transform: none;
+    }
+}

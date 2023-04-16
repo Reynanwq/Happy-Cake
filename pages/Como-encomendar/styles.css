@@ -310,3 +310,46 @@ header {
         margin-top: 245px;
     }
 }
+
+@media screen and (max-width: 428px) {
+    footer {
+        margin-top: 230px;
+    }
+}
+
+@media  screen and (max-width: 414px) {
+    footer {
+        margin-top: 225px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    footer {
+        margin-top: 240px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .menu {
+        margin-bottom: 50px;
+    }
+
+    .content-lista {
+        height: 100vh;
+        font-size: 1em;
+    }
+
+    .content-payment {
+        height: 100vh;
+        margin-bottom: 30px;
+    }
+
+    .content-lista ul li:hover,
+    .content-payment ul li:hover {
+        font-size: 1em;
+    }
+
+    .content-payment > span {
+        text-align: center;
+    }
+}

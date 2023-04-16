@@ -467,8 +467,26 @@ a.button:hover {
 
 }
 
+@media screen and (max-width: 428px) { 
+    .slogan {
+        margin-top: -135px;
+        width: 100vw;
+    }
+
+}
+
+@media screen and (max-width: 393px) {
+    .slogan {
+        margin-top: -145px;
+        width: 100vw;
+    }
+}
+
 @media screen and (max-width: 360px) {
     .slogan {
-        /* width: 350px; */
+        margin-top: -150px;
+        margin-bottom: -100px;
+        width: 100;
+        /* adicionado */
     }
 }
