@@ -5,13 +5,13 @@
     justify-content: flex-end;
 
 
-    width: 100%;
-
+    width: 100vw;
     height: 70px;
     padding-top: 20px;
     padding-right: 100px;
 
 }
+
 
 
 body {
@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: #e4fff4;
+    background-color: #fff1ff;
 
 }
 
@@ -30,12 +30,8 @@ main {
     align-items: center;
     justify-content: center;
 
-    min-width: 300px;
-    max-width: 1200px;
-    /* width: 1140px; */
-    /* height: 1000px; */
+    width: 1140px;
     margin-top: 50px;
-
 }
 
 .navbar {
@@ -86,26 +82,19 @@ main {
 
 }
 
-section form {
-    text-align: center;
-}
-
-.signup {
+.login {
 
     display: flex;
     flex-direction: column;
     align-items: center;
 
     width: 400px;
-    min-height: 650px;
     border-radius: 10px;
-    margin-top: 80px;
 
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
     background-color: #FFFFFF;
 }
 
-.signup h2 {
+.login h2 {
     margin-top: 20px;
 
     font-family: 'Ibarra Real Nova', sans-serif;
@@ -113,7 +102,7 @@ section form {
 
 }
 
-.signup-social {
+.login-social {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -125,14 +114,14 @@ section form {
 
 }
 
-.signup-social img {
+.login-social img {
     width: 40px;
     height: 40px;
 
     transition: 0.3s;
 }
 
-.signup-social img:hover {
+.login-social img:hover {
     width: 45px;
     height: 45px;
 }
@@ -148,7 +137,7 @@ section form {
     color: #9c9c9c
 }
 
-.signup-label {
+.login-label {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,19 +148,33 @@ section form {
 
 }
 
-.back-login {
-    margin-top: 20px;
+
+#nome, #sobrenome, #nome-social, #cpf, #cep, #rua, #bairro, #cidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 230px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+section form {
+    text-align: center;
 }
 
 input[type="email"],
-input[type="password"],
-input[type="text"] {
+input[type="password"] {
     width: 230px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 input[type="email"]:focus,
@@ -180,16 +183,10 @@ input[type="password"]:focus {
     outline: none;
 }
 
-.next,
-.previous {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
+.login-button {
     width: 140px;
     height: 40px;
-    margin-top: 15px;
+    margin-top: 25px;
 
     background-color: #56aaaa;
     color: white;
@@ -203,8 +200,7 @@ input[type="password"]:focus {
 
 }
 
-.next:hover,
-.previous:hover {
+.login-button:hover {
     background-color: #126969;
 }
 
@@ -214,28 +210,4 @@ input[type="password"]:focus {
 
 .forgot-password {
     margin-top: 10px;
-}
-
-@media screen and (max-width: 1608px) {}
-
-@media screen and (max-width: 1540px) {}
-
-@media screen and (max-width: 1329px) {}
-
-@media screen and (max-width: 983px) {}
-
-@media screen and (max-width: 810px) {}
-
-@media screen and (max-width: 460px) {}
-
-@media screen and (max-width: 390px) {
-    .logo-center img {
-        width: 130px;
-        height: 120px;
-    }
-
-    .search {
-        top: 225px;
-    }
-
 }

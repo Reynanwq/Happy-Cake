@@ -9,12 +9,6 @@
     --cor06: #e4fff4;
 }
 
-/* Fonte do Header e para os demais textos do site (exceto o footer) */
-
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
-/* font-family: 'Great Vibes', cursive;*/
-
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@1&display=swap');
 
 /* font-family: 'Ibarra Real Nova', serif; */
@@ -23,53 +17,33 @@
 
 /* font-family: 'Public Sans', sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap');
-
-/* font-family: 'Great Vibes', cursive;
-font-family: 'Pacifico', cursive; */
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     /* Configuração Global */
 }
 
-header {
-    background-color: #FFFFFF;
-}
-
 body {
     font-family: 'Courier New', Courier, monospace, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: var(--cor06);
-
 }
 
-
 main {
-    background-color: var(--cor06);
-    min-width: 300px;
-    max-width: 1200px;
-    margin: auto;
-    padding-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .info-catalogo {
     text-align: center;
     padding: 30px 10px;
     font-family: 'Public Sans', sans-serif;
-    text-transform: uppercase;
+    text-transform: uppercase; /* letras maiúsculas */
     font-size: 2em;
-    letter-spacing: 2px;
+    letter-spacing: 2px; /* espaço entre as letras */
 }
 
 .info-catalogo::after {
     content: "\ " "\1F370";
-    /* Adicionando um icone no final
+    /* Adiciona um icone no final
     "\ " é para adicionar um espaço entre a última letra e o icon */
 }
 
@@ -79,33 +53,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    align-content: space-around;
-    gap: 10px;
-    padding-bottom: 10px;
-}
-
-
-div p {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-main div:hover {
-    color: black;
-    background-color: white;
-    font-weight: bold;
-
-    transform: scale(1.1, 1.1);
-    transition: 0.25s;
-
-}
-
-
-.bloco-img {
-
-    text-align: center;
-    border-radius: 10px;
-
+    gap: 13px;
 }
 
 .img-bolo {
@@ -122,25 +70,34 @@ main div:hover {
     padding: 5px;
     background-color: var(--cor05);
     box-shadow: 0px 0px 3px black;
+
+    text-align: center;
+    border-radius: 10px;
+}
+
+.bloco-img p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.bloco-img:hover {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+
+    transform: scale(1.06, 1.06);
+    transition: 0.25s;
 }
 
 aside {
-    max-width: 1100px;
+    max-width: 1106px;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 15px;
     padding: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.315);
-}
-
-aside a:hover {
-    text-decoration: underline;
-}
-
-aside a {
-    color: black;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.170);
 }
 
 .more-information01 {
@@ -148,10 +105,6 @@ aside a {
     margin: -10px -10px 10px -10px;
     padding: 10px;
     text-align: center;
-}
-
-.more-information01 ul {
-    list-style: none;
 }
 
 .more-information01 h2 {
@@ -169,94 +122,27 @@ aside a {
 .more-information02 ul {
     columns: 2;
     text-align: center;
-    list-style: none;
 }
 
 .more-information01 ul li a,
 .more-information02 ul li a {
-    text-decoration: none;
     color: black;
 }
 
-.more-information01 ul li a:hover,
-.more-information02 ul li a:hover {
-    color: #FFFFFF;
-}
-
-
-.boxs h2 {
+.more-information01 a:hover,
+.more-information02 a:hover {
+    background-color: var(--cor05);
     color: white;
-    margin-bottom: 20px;
-    font-family: 'Ibarra Real Nova Bold', sans-serif;
-    letter-spacing: 1px;
-    color: white;
-}
 
-.boxs ul li {
-    margin: 10px 0px;
-}
+    border-radius: 5px;
+    padding: 4px;
 
-.box-ajudawpp:hover {
-    color: green;
-    text-decoration: underline;
     font-weight: bold;
+
+    transition: 0.25s;
 }
 
-.box-ajudainsta:hover {
-    color: #D9328E;
-    text-decoration: underline;
-    font-weight: bolder;
-}
-
-.boxs p {
-    text-align: justify;
-    font-family: 'Public Sans', sans-serif;
-    font-size: 14px;
-    line-height: 26px;
-    letter-spacing: 2px;
-}
-
-.rodape {
-    text-align: center;
-    background-color: var(--cor01);
-}
-
-.developer {
-    margin: 0px;
-    text-decoration: none;
-}
-
-.developer a {
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-}
-
-.developer a:hover {
-    text-decoration: underline var(--cor05);
-}
-
-@media (max-width: 950px) {
-    footer {
-        flex-direction: column;
-        /* 
-        Abaixo dos 950px, o footer fica em colunas
-
-        As configurações abaixo são apenas para organização do conteúdo
-
-        Obs.: É necessário fazer tudo dentro deste @media para que funcione. */
-    }
-
-    footer .boxs {
-        width: 100%;
-        text-align: center;
-    }
-
-    footer .boxs:nth-child(4) {
-        width: 100%;
-    }
-}
-
+/* Configurações no @media feitas por Reyna Paiva: https://github.com/Reynanwq */
 
 @media screen and (max-width: 1608px) {
     /*ok*/
@@ -272,6 +158,27 @@ aside a {
 
 @media screen and (max-width: 983px) {
     /*ok*/
+}
+
+@media (max-width: 950px) {
+    footer {
+        flex-direction: column;
+        /* 
+        Abaixo dos 950px, o footer fica em colunas
+
+        As configurações abaixo são apenas para organização do conteúdo
+
+        Obs.: É necessário fazer tudo dentro deste @media para que funcione. */
+    }
+
+    /* footer .boxs {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .boxs:nth-child(4) {
+        width: 100%;
+    } */
 }
 
 @media screen and (max-width: 810px) {
@@ -322,14 +229,12 @@ aside a {
         height: 100%;
     }
 
-
     .menu {
         justify-content: center;
         align-items: center;
 
         width: 100vw;
         height: 150px;
-
     }
 
     .menu ul {
@@ -347,7 +252,6 @@ aside a {
         height: 100%;
     }
 
-
     .search {
         top: 255px;
         left: 50.5%;
@@ -361,13 +265,11 @@ aside a {
     .search:hover>.box-txt {
         width: 120px;
         padding: 0 6px;
-
     }
 
     .search:hover>.btn-search {
         background-color: #333;
         margin-left: 3px;
-
     }
 
     .btn-search {
@@ -398,14 +300,12 @@ aside a {
         cursor: pointer;
     }
 
-
     .menu {
         justify-content: center;
         align-items: center;
 
         width: 100vw;
         height: 150px;
-
     }
 
     .menu ul {
@@ -443,7 +343,6 @@ aside a {
     .container {
         padding-bottom: 0px;
     }
-
     /* Adicionei esse media para corrigir o header que não estava padronizado com o da Home */
 }
 
@@ -457,4 +356,10 @@ aside a {
         top: 225px;
     }
 
+}
+
+@media screen and (max-width: 360px) { 
+    .bloco-img:hover {
+        transform: none;
+    }
 }
